@@ -1,6 +1,4 @@
-Perfect—let’s draft a **full README-style project document** that you can drop directly into your GitHub repo. This will not only explain what the project is but also show recruiters you take documentation and storytelling seriously. I’ll tailor the tone and depth to your **resume style and prior projects**.
 
----
 
 # 📊 Premier League Player Role Discovery
 
@@ -130,16 +128,7 @@ premier-league-role-discovery/
 
 ## 🚀 Deployment
 
-Run locally:
-
-```bash
-git clone https://github.com/mbengue1/premier-league-role-discovery.git
-cd premier-league-role-discovery
-pip install -r requirements.txt
-streamlit run app/Home.py
-```
-
-
+Run locally
 
 
 ## 📈 Future Improvements
