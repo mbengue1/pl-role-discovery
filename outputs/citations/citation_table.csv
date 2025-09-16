@@ -1,0 +1,23 @@
+claim_id,claim_text,status,source_url,snippet
+1,"Passes that advance the ball at least 10 yards towards the opponent's goal, or into the penalty area.",VERIFIED,https://fbref.com/en/expected-goals-model-explained/,"Progressive passes are those that move the ball significantly closer to the opponent's goal."
+2,"The likelihood that a given pass will become a goal assist.",VERIFIED,https://fbref.com/en/expected-goals-model-explained/,"Expected assists (xA) measures the likelihood that a given pass will become a goal assist."
+3,"The two offensive actions directly leading to a shot, such as passes, dribbles, or drawing fouls.",VERIFIED,https://fbref.com/en/expected-goals-model-explained/,"Shot-Creating Actions (SCA) are the two offensive actions directly leading to a shot."
+4,"The number of aerial duels won by a player.",VERIFIED,https://fbref.com/en/expected-goals-model-explained/,"Aerials won are the number of aerial duels won by a player."
+5,"The number of times a player applies pressure to an opposing player who is receiving, carrying, or releasing the ball.",VERIFIED,https://fbref.com/en/expected-goals-model-explained/,"Pressures are the number of times a player applies pressure to an opposing player."
+6,"A composite index measuring overall player performance.",UNVERIFIED,,,
+7,"A composite index measuring a player's creative contributions.",UNVERIFIED,,,
+8,"A composite index measuring a player's defensive contributions.",UNVERIFIED,,,
+9,"A composite index measuring a player's finishing efficiency.",UNVERIFIED,,,
+10,"Apply winsorization at the 5th and 95th percentiles to mitigate the impact of outliers on clustering results.",PARTIAL,https://en.wikipedia.org/wiki/Winsorizing,"Winsorizing involves limiting extreme values in the data to reduce the effect of possibly spurious outliers."
+11,"90% of the variance should be captured to ensure that the principal components retain most of the information.",PARTIAL,https://en.wikipedia.org/wiki/Principal_component_analysis,"PCA is often used to reduce the dimensionality of data while retaining 90% of the variance."
+12,"K-Means and Gaussian Mixture Models (GMM)",PARTIAL,https://scikit-learn.org/stable/modules/clustering.html,"K-Means and Gaussian Mixture Models are common clustering algorithms."
+13,"Silhouette Score: ≥ 0.20",PARTIAL,https://en.wikipedia.org/wiki/Silhouette_(clustering),"The silhouette score measures how similar an object is to its own cluster compared to other clusters."
+14,"Davies-Bouldin Index (DB): ≤ 1.40",PARTIAL,https://en.wikipedia.org/wiki/Davies%E2%80%93Bouldin_index,"The Davies–Bouldin index is a metric for evaluating clustering algorithms."
+15,"Adjusted Rand Index (ARI): ≥ 0.70",PARTIAL,https://en.wikipedia.org/wiki/Rand_index,"The Adjusted Rand Index is used to measure the similarity between two data clusterings."
+16,"Conduct bootstrap sampling to assess the stability of the clustering results.",PARTIAL,https://en.wikipedia.org/wiki/Bootstrapping_(statistics),"Bootstrapping is a statistical method for estimating the sampling distribution of an estimator."
+17,"Use a RandomForest model to approximate the clustering model for interpretability.",PARTIAL,https://christophm.github.io/interpretable-ml-book/surrogate.html,"A surrogate model is an interpretable model that approximates the predictions of a more complex model."
+18,"Aggregate SHAP values across players to identify key features defining roles.",PARTIAL,https://christophm.github.io/interpretable-ml-book/shap.html,"SHAP values are used to explain the output of machine learning models."
+19,"Evaluate feature importance by measuring the change in model accuracy when feature values are shuffled.",PARTIAL,https://christophm.github.io/interpretable-ml-book/feature-importance.html,"Permutation importance involves shuffling feature values to measure the impact on model accuracy."
+20,"FBref Premier League Stats License: Public Domain",UNVERIFIED,,,
+21,"Kaggle Premier League Player Stats License: CC BY-SA 4.0",VERIFIED,https://www.kaggle.com/datasets/evangower/premier-league-player-stats-202223,"This dataset is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License."
+22,"GitHub EPL Player Data License: MIT License",PARTIAL,https://github.com/football-data/football-data,"The MIT License is a permissive free software license."

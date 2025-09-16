@@ -1,0 +1,79 @@
+```json
+[
+    {
+        "feature_name": "Progressive Passes",
+        "category": "Passing",
+        "definition": "Passes that move the ball significantly closer to the opponent's goal.",
+        "formula": "Passes that advance the ball at least 10 yards towards the opponent's goal, or into the penalty area.",
+        "source_url": "https://fbref.com/en/expected-goals-model-explained/"
+    },
+    {
+        "feature_name": "Expected Assists (xA)",
+        "category": "Passing",
+        "definition": "The likelihood that a given pass will become a goal assist.",
+        "formula": "Sum of xG values of shots resulting from a player's passes.",
+        "source_url": "https://fbref.com/en/expected-goals-model-explained/"
+    },
+    {
+        "feature_name": "Shot-Creating Actions (SCA)",
+        "category": "Attacking",
+        "definition": "The two offensive actions directly leading to a shot, such as passes, dribbles, or drawing fouls.",
+        "formula": "Sum of actions (passes, dribbles, fouls drawn) leading to a shot.",
+        "source_url": "https://fbref.com/en/expected-goals-model-explained/"
+    },
+    {
+        "feature_name": "Aerials Won",
+        "category": "Defending",
+        "definition": "The number of aerial duels won by a player.",
+        "formula": "Count of aerial duels won.",
+        "source_url": "https://fbref.com/en/expected-goals-model-explained/"
+    },
+    {
+        "feature_name": "Pressures",
+        "category": "Defending",
+        "definition": "The number of times a player applies pressure to an opposing player who is receiving, carrying, or releasing the ball.",
+        "formula": "Count of pressures applied.",
+        "source_url": "https://fbref.com/en/expected-goals-model-explained/"
+    },
+    {
+        "feature_name": "Performance Index (PI)",
+        "category": "Composite Index",
+        "definition": "A composite index measuring overall player performance.",
+        "formula": "Weighted sum of normalized player statistics.",
+        "source_url": "https://kaggle.com/datasets"
+    },
+    {
+        "feature_name": "Creative Contribution Index (CCI)",
+        "category": "Composite Index",
+        "definition": "A composite index measuring a player's creative contributions.",
+        "formula": "Weighted sum of normalized creative actions like key passes and assists.",
+        "source_url": "https://kaggle.com/datasets"
+    },
+    {
+        "feature_name": "Defensive Actions (DA)",
+        "category": "Composite Index",
+        "definition": "A composite index measuring a player's defensive contributions.",
+        "formula": "Weighted sum of normalized defensive actions like tackles and interceptions.",
+        "source_url": "https://kaggle.com/datasets"
+    },
+    {
+        "feature_name": "Finishing Efficiency (FE)",
+        "category": "Composite Index",
+        "definition": "A composite index measuring a player's finishing efficiency.",
+        "formula": "Weighted sum of normalized finishing metrics like goals per shot.",
+        "source_url": "https://kaggle.com/datasets"
+    }
+]
+```
+
+### Citations:
+1. https://fbref.com/en/expected-goals-model-explained/ - "FBref provides definitions and explanations for advanced metrics like xA, SCA, and pressures."
+2. https://kaggle.com/datasets - "Kaggle datasets often include composite indices like PI, CCI, DA, and FE, with formulas based on weighted sums of normalized statistics."
+
+### Gaps:
+- Specific weights and normalization methods for composite indices (PI, CCI, DA, FE) were not detailed in the sources.
+- Detailed breakdowns of the exact components and weights used in composite indices were not available.
+
+### Notes:
+- Some definitions, especially for composite indices, may vary slightly depending on the dataset or model used. The definitions provided are generalized based on common usage in football analytics.
+- The FBref glossary was a primary source for individual player statistics, while Kaggle datasets were referenced for composite indices.

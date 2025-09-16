@@ -1,0 +1,98 @@
+{
+  "plan": [
+    {
+      "title": "Extract and Validate Key Features",
+      "scope": "Compile definitions, interpretations, and calculation formulas for all player-level features used (e.g., progressive passes, xA, SCA, aerials won, pressures), including composite indices like PI, CCI, DA, FE.",
+      "format": "JSON table with keys: feature_name, category, definition, formula (if applicable), source_url",
+      "tools": [
+        "FBref glossary",
+        "Kaggle datasets",
+        "web search"
+      ],
+      "stop_condition": "All features from Section 4.3 and Appendix A in the documentation are covered"
+    },
+    {
+      "title": "Benchmark Clustering Algorithms for Player Roles",
+      "scope": "Survey literature and applied use cases comparing K-Means vs Gaussian Mixture Models (GMMs) for sports analytics, especially role discovery in soccer.",
+      "format": "Markdown summary with pros/cons table and recommended best practices",
+      "tools": [
+        "Google Scholar",
+        "arXiv",
+        "sports analytics blogs"
+      ],
+      "stop_condition": "3+ high-quality sources comparing clustering algorithms for player grouping or role discovery"
+    },
+    {
+      "title": "Evaluate Dimensionality Reduction Best Practices",
+      "scope": "Compare PCA and UMAP for dimensionality reduction in player performance data, focusing on clustering robustness and visualization clarity.",
+      "format": "Markdown summary with use-case tradeoffs and visual examples if available",
+      "tools": [
+        "academic papers",
+        "Stack Overflow",
+        "blog posts by practitioners"
+      ],
+      "stop_condition": "Cite at least 3 practical examples or papers using PCA or UMAP in sports data"
+    },
+    {
+      "title": "Assess Explainability Approaches with SHAP and Permutation Importance",
+      "scope": "Explain the rationale, limitations, and interpretability benefits of using SHAP and permutation importance for clustering explainability using RandomForest surrogates.",
+      "format": "Bullet-point summary with citations to SHAP docs and comparable projects",
+      "tools": [
+        "SHAP documentation",
+        "Kaggle kernels",
+        "Distill.pub",
+        "academic explainability literature"
+      ],
+      "stop_condition": "5 bullet points per method with citations and visual examples"
+    },
+    {
+      "title": "Define and Source Licensing-Compliant Datasets",
+      "scope": "Verify publicly available Premier League datasets (FBref, Kaggle, etc.) that meet licensing, attribution, and format needs for per-90 normalized stats with at least 600-minute filters.",
+      "format": "JSON list of datasets with: dataset_name, source_url, license_type, season_covered, player_count",
+      "tools": [
+        "FBref exports",
+        "Kaggle",
+        "GitHub datasets"
+      ],
+      "stop_condition": "3 valid datasets covering EPL 2022/23 outfield players with at least 90% coverage"
+    },
+    {
+      "title": "Audit Comparable Role Discovery Projects",
+      "scope": "Identify and summarize similar ML-based player role discovery projects (open-source or academic) in soccer, noting their feature sets, methods, UX, and outcomes.",
+      "format": "Markdown table with: project_name, link, features_used, clustering method, explainability, unique insight",
+      "tools": [
+        "GitHub",
+        "Medium",
+        "Towards Data Science",
+        "SoccerQuant blogs"
+      ],
+      "stop_condition": "5 high-signal examples with public repos or writeups"
+    },
+    {
+      "title": "Design UX Patterns for Role-Based Player Exploration",
+      "scope": "Research best-in-class interactive interfaces for sports data exploration\u2014especially around clustering, radar charts, and player similarity search.",
+      "format": "Image references + Markdown notes describing layout, navigation, and interaction design",
+      "tools": [
+        "Streamlit Gallery",
+        "Tableau Public",
+        "dribbble",
+        "Soccerment",
+        "Understat",
+        "fbref"
+      ],
+      "stop_condition": "4 UI examples from relevant platforms with screenshots and annotations"
+    },
+    {
+      "title": "Validate Clustering Metrics and Interpretability Thresholds",
+      "scope": "Define and justify metric thresholds used in your evaluation protocol (e.g., Silhouette \u2265 0.20, DB \u2264 1.40, ARI \u2265 0.70) by reviewing clustering evaluation norms in applied sports ML.",
+      "format": "Markdown write-up with: metric_name, definition, why it\u2019s used, threshold justification, example source",
+      "tools": [
+        "scikit-learn docs",
+        "ML blog posts",
+        "sports analytics papers"
+      ],
+      "stop_condition": "One justified threshold per metric used in Section 10.1 of your documentation"
+    }
+  ],
+  "global_success_criteria": "All components of the pipeline\u2014data sourcing, feature engineering, modeling, explainability, and user-facing visualizations\u2014must be supported by well-researched, documented insights that enable defensible implementation and UX design choices."
+}

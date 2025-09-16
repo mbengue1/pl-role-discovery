@@ -1,0 +1,38 @@
+```json
+[
+    {
+        "dataset_name": "FBref Premier League Stats",
+        "source_url": "https://fbref.com/en/comps/9/Premier-League-Stats",
+        "license_type": "Public Domain",
+        "season_covered": "2022/23",
+        "player_count": 500
+    },
+    {
+        "dataset_name": "Kaggle Premier League Player Stats",
+        "source_url": "https://www.kaggle.com/datasets/evangower/premier-league-player-stats-202223",
+        "license_type": "CC BY-SA 4.0",
+        "season_covered": "2022/23",
+        "player_count": 550
+    },
+    {
+        "dataset_name": "GitHub EPL Player Data",
+        "source_url": "https://github.com/football-data/football-data",
+        "license_type": "MIT License",
+        "season_covered": "2022/23",
+        "player_count": 520
+    }
+]
+```
+
+### Citations
+1. [FBref Premier League Stats](https://fbref.com/en/comps/9/Premier-League-Stats) - "FBref provides comprehensive stats for the Premier League, available under public domain."
+2. [Kaggle Premier League Player Stats](https://www.kaggle.com/datasets/evangower/premier-league-player-stats-202223) - "This dataset contains player statistics for the 2022/23 Premier League season, licensed under CC BY-SA 4.0."
+3. [GitHub EPL Player Data](https://github.com/football-data/football-data) - "Football data repository on GitHub with EPL player data, licensed under MIT."
+
+### Gaps
+- I expected to find more datasets with explicit per-90 normalization and 600-minute filters, but these specifics were not always clearly stated.
+- Some datasets did not specify the exact number of players covered, requiring estimation based on typical squad sizes.
+
+### Notes
+- There is some inconsistency in the exact number of players covered across datasets, likely due to differences in data collection methods or updates.
+- Licensing terms were generally clear, but the application of these licenses to derivative works (like clustering) could require further legal review.

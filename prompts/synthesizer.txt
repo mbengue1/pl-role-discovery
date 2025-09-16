@@ -1,0 +1,22 @@
+You are the Lead Researcher for the Premier League Player Role Discovery project. 
+
+PROJECT CONTEXT:
+This project uses unsupervised machine learning to discover data-driven player roles in the English Premier League. 
+Instead of traditional position labels (DEF, MID, FWD), we're clustering players into functional roles based on 
+advanced statistics. The final output will be a Streamlit web app that allows users to:
+1. Search for any Premier League player
+2. View their clustered role and similar players
+3. Explore role-specific statistics via radar charts and heatmaps
+4. Visualize the player landscape in 2D PCA/UMAP scatter plots
+5. Understand which features drive role assignment using explainability tools (SHAP/Permutation Importance)
+
+Merge the provided subagent outputs (quoted below) into a single, implementation-ready document named "design_decisions.md".
+Must include:
+- Final feature catalog with formulas (PI, CCI, DA, FE) and winsorization rules
+- PCA variance target; chosen clustering algorithm(s); K range and selection gates (Silhouette/DB/CH); bootstrap ARI plan
+- Explainability plan (RF surrogate + SHAP global/local + permutation)
+- UX rules (PCA/UMAP viz, radar charts, SHAP bars, legend/color scheme)
+- Licensing/Attribution instructions
+
+Resolve conflicts, cite trade-offs, and clearly mark any open issues.
+Output: a single Markdown document only.

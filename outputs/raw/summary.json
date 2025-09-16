@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-09-16 19:17:06",
+  "model": "gpt-4o",
+  "tasks_total": 8,
+  "tasks_successful": 8,
+  "results": [
+    {
+      "task_index": 0,
+      "title": "Extract and Validate Key Features",
+      "result_path": "outputs/raw/01_extract-and-validate-key-features.json",
+      "meta_path": "outputs/raw/01_extract-and-validate-key-features-meta.json",
+      "success": true
+    },
+    {
+      "task_index": 1,
+      "title": "Benchmark Clustering Algorithms for Player Roles",
+      "result_path": "outputs/raw/02_benchmark-clustering-algorithms-for-player-roles.md",
+      "meta_path": "outputs/raw/02_benchmark-clustering-algorithms-for-player-roles-m.json",
+      "success": true
+    },
+    {
+      "task_index": 2,
+      "title": "Evaluate Dimensionality Reduction Best Practices",
+      "result_path": "outputs/raw/03_evaluate-dimensionality-reduction-best-practices.md",
+      "meta_path": "outputs/raw/03_evaluate-dimensionality-reduction-best-practices-m.json",
+      "success": true
+    },
+    {
+      "task_index": 3,
+      "title": "Assess Explainability Approaches with SHAP and Permutation Importance",
+      "result_path": "outputs/raw/04_assess-explainability-approaches-with-shap-and-per.md",
+      "meta_path": "outputs/raw/04_assess-explainability-approaches-with-shap-and-per.json",
+      "success": true
+    },
+    {
+      "task_index": 4,
+      "title": "Define and Source Licensing-Compliant Datasets",
+      "result_path": "outputs/raw/05_define-and-source-licensing-compliant-datasets.json",
+      "meta_path": "outputs/raw/05_define-and-source-licensing-compliant-datasets-met.json",
+      "success": true
+    },
+    {
+      "task_index": 5,
+      "title": "Audit Comparable Role Discovery Projects",
+      "result_path": "outputs/raw/06_audit-comparable-role-discovery-projects.md",
+      "meta_path": "outputs/raw/06_audit-comparable-role-discovery-projects-meta.json",
+      "success": true
+    },
+    {
+      "task_index": 6,
+      "title": "Design UX Patterns for Role-Based Player Exploration",
+      "result_path": "outputs/raw/07_design-ux-patterns-for-role-based-player-explorati.md",
+      "meta_path": "outputs/raw/07_design-ux-patterns-for-role-based-player-explorati.json",
+      "success": true
+    },
+    {
+      "task_index": 7,
+      "title": "Validate Clustering Metrics and Interpretability Thresholds",
+      "result_path": "outputs/raw/08_validate-clustering-metrics-and-interpretability-t.md",
+      "meta_path": "outputs/raw/08_validate-clustering-metrics-and-interpretability-t.json",
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-09-16 19:23:41",
+  "model": "gpt-4o",
+  "elapsed_time": 26.08484411239624,
+  "token_usage": {
+    "prompt_tokens": 1638,
+    "completion_tokens": 2345,
+    "total_tokens": 3983
+  },
+  "prompt_hash": "2c4192bc121b9a156ecfb2f976c57755",
+  "input_file": "design_decisions.md",
+  "output_files": [
+    "citation_table.csv",
+    "design_decisions_verified.md"
+  ]
+}
