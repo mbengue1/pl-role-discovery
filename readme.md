@@ -54,12 +54,28 @@ premier-league-role-discovery/
   │   ├── 02_feature_engineering.ipynb
   │   ├── 03_model_selection.ipynb
   │   └── 04_visualization.ipynb
+  ├── planning/                # Research and planning documents
+  │   ├── documentation.md
+  │   ├── multi-agent-plan.md
+  │   └── research-results/
+  │       └── plan.json
+  ├── outputs/                 # Multi-agent research outputs
+  │   ├── raw/                 # Individual research task results
+  │   ├── synthesis/           # Synthesized design decisions
+  │   └── citations/           # Citation verification
+  ├── scripts/                 # Research automation
+  │   ├── run_subagents.py
+  │   ├── synthesize.py
+  │   └── cite_verify.py
   ├── src/
   │   ├── data.py
   │   ├── features.py
   │   ├── clustering.py
   │   ├── explainability.py
   │   └── viz.py
+  ├── utils/                   # Utility functions
+  │   ├── openai_client.py
+  │   └── io_helpers.py
   ├── requirements.txt
   ├── README.md
   └── LICENSE
@@ -69,32 +85,43 @@ premier-league-role-discovery/
 
 ## 📊 Methodology
 
-1. **Data Collection**
+### Research Phase
 
+1. **Multi-Agent Research**
+   * Parallel execution of research tasks using OpenAI API
+   * Synthesis of findings into design decisions
+   * Citation verification and validation
+
+2. **Design Decisions**
+   * Feature definitions and formulas documented
+   * Clustering approach and evaluation metrics established
+   * Explainability framework defined
+   * UX patterns and visualization guidelines set
+
+### Implementation Phase
+
+1. **Data Collection**
    * Source: Kaggle Premier League stats datasets (or FBref exports)
    * Focus: Outfield players, ≥600 minutes played
 
 2. **Feature Engineering**
-
    * Per-90 scaling for rate stats
-   * Composite metrics (progression, creation, defense, finishing)
-   * Scaling & outlier handling
+   * Composite indices (PI, CCI, DA, FE)
+   * Winsorization at 5th and 95th percentiles
 
 3. **Dimensionality Reduction**
-
-   * PCA → retain 85–90% variance
-   * UMAP → visualization layer
+   * PCA → retain 90% variance
+   * UMAP → visualization layer only
 
 4. **Clustering**
-
-   * K-Means & Gaussian Mixtures
-   * Metrics: Silhouette Score, Davies–Bouldin, Calinski-Harabasz
-   * Manual inspection for interpretability
+   * K-Means & Gaussian Mixture Models
+   * Metrics: Silhouette Score (≥0.20), Davies–Bouldin (≤1.40), ARI (≥0.70)
+   * Bootstrap sampling for stability assessment
 
 5. **Explainability**
-
-   * Train RandomForest classifier → predict cluster labels
-   * SHAP/permutation importance → global + local explanations
+   * RandomForest surrogate model
+   * SHAP values for global and local explanations
+   * Permutation importance for validation
 
 ---
 
@@ -118,7 +145,9 @@ premier-league-role-discovery/
 
 ## 🛠️ Tech Stack
 
-* **Python**: `pandas`, `numpy`, `scikit-learn`, `shap`
+* **Research**: `openai`, `concurrent.futures`, `tenacity`
+* **Data Processing**: `pandas`, `numpy`, `scikit-learn`
+* **Machine Learning**: `scikit-learn`, `shap`, `umap-learn`
 * **Visualization**: `plotly`, `seaborn`, `mplsoccer` (optional)
 * **Web App**: `streamlit`
 * **Deployment**: Streamlit Community Cloud
@@ -128,7 +157,28 @@ premier-league-role-discovery/
 
 ## 🚀 Deployment
 
-Run locally
+### Research Pipeline
+
+Run the multi-agent research pipeline:
+
+```bash
+# 1. Execute research tasks in parallel
+python scripts/run_subagents.py --plan planning/research-results/plan.json --model gpt-4o
+
+# 2. Synthesize research findings
+python scripts/synthesize.py --model gpt-4o
+
+# 3. Verify citations (optional)
+python scripts/cite_verify.py --model gpt-4o
+```
+
+### Streamlit App
+
+Run the app locally:
+
+```bash
+streamlit run app/Home.py
+```
 
 
 ## 📈 Future Improvements

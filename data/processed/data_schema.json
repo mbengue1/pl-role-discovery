@@ -1,0 +1,1494 @@
+{
+  "num_rows": 563,
+  "num_columns": 248,
+  "columns": {
+    "player": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "row_id": {
+      "dtype": "int64",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "mp": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 39
+    },
+    "starts": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 40
+    },
+    "minutes": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "90s": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "gls": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 23
+    },
+    "ast": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 15
+    },
+    "gplusa": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 28
+    },
+    "g_pk": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 20
+    },
+    "pk": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 9
+    },
+    "pkatt": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 9
+    },
+    "crdy": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 14
+    },
+    "crdr": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 4
+    },
+    "xg": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 99
+    },
+    "npxg": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 98
+    },
+    "xag": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 78
+    },
+    "npxgplusxag": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgc": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgp": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgr": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "gls1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 66
+    },
+    "ast1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 48
+    },
+    "gplusa1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 88
+    },
+    "g_pk1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 61
+    },
+    "gplusa_pk": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 86
+    },
+    "xg1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 67
+    },
+    "xag1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 47
+    },
+    "xgplusxag": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 88
+    },
+    "npxg1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 65
+    },
+    "npxgplusxag1": {
+      "dtype": "object",
+      "source_table": "standard",
+      "missing_values": 0,
+      "unique_values": 87
+    },
+    "row_id_misc": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "crdy_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 14
+    },
+    "crdr_misc": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 4
+    },
+    "2crdy": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": 3
+    },
+    "fls": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": 63
+    },
+    "fld": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 64
+    },
+    "off": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 24
+    },
+    "crs": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "int": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 54
+    },
+    "tklw": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 63
+    },
+    "pkwon": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": 6
+    },
+    "pkcon": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": 5
+    },
+    "og": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": 5
+    },
+    "recov": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "won": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 0,
+      "unique_values": 87
+    },
+    "lost": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 78
+    },
+    "wonpct": {
+      "dtype": "object",
+      "source_table": "misc",
+      "missing_values": 41,
+      "unique_values": "too many to list"
+    },
+    "row_id_passing": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "cmp": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "cmppct": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 7,
+      "unique_values": "too many to list"
+    },
+    "totdist": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgdist": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "cmp1": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att1": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "cmppct1": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 13,
+      "unique_values": "too many to list"
+    },
+    "cmp2": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att2": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "cmppct2": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 16,
+      "unique_values": "too many to list"
+    },
+    "cmp3": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att3": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "cmppct3": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 41,
+      "unique_values": "too many to list"
+    },
+    "ast_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 15
+    },
+    "xag_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 78
+    },
+    "xa": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": 68
+    },
+    "a_xag": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": 64
+    },
+    "kp": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": 66
+    },
+    "1_per_3": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "ppa": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": 63
+    },
+    "crspa": {
+      "dtype": "object",
+      "source_table": "passing",
+      "missing_values": 0,
+      "unique_values": 27
+    },
+    "prgp_passing": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "row_id_playtime": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 556
+    },
+    "rk_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "mp_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 40
+    },
+    "minutes_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "mn_per_mp": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 91
+    },
+    "minpct": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "90s_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "starts_playtime": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 40
+    },
+    "mn_per_start": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 70,
+      "unique_values": 42
+    },
+    "compl": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 40
+    },
+    "subs": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 27
+    },
+    "mn_per_sub": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 82,
+      "unique_values": 49
+    },
+    "unsub": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 33
+    },
+    "ppm": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "ong": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 74
+    },
+    "onga": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 71
+    },
+    "#error!": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": 76
+    },
+    "#error!1": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "on_off": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 6,
+      "unique_values": "too many to list"
+    },
+    "onxg": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "onxga": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "xgplus_per_": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "xgplus_per_90": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "on_off1": {
+      "dtype": "object",
+      "source_table": "playtime",
+      "missing_values": 6,
+      "unique_values": "too many to list"
+    },
+    "row_id_defense": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "tkl": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 92
+    },
+    "tklw_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 63
+    },
+    "def_3rd": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 55
+    },
+    "mid_3rd": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 50
+    },
+    "att_3rd": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 24
+    },
+    "tkl1": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 52
+    },
+    "att_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 87
+    },
+    "tklpct": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 52,
+      "unique_values": "too many to list"
+    },
+    "lost_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 52
+    },
+    "blocks": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 60
+    },
+    "sh": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 38
+    },
+    "pass": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 45
+    },
+    "int_defense": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 54
+    },
+    "tklplusint": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "clr": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "err": {
+      "dtype": "object",
+      "source_table": "defense",
+      "missing_values": 0,
+      "unique_values": 12
+    },
+    "row_id_pass_types": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "live": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "dead": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "fk": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 81
+    },
+    "tb": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 24
+    },
+    "sw": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 26
+    },
+    "crs_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "ti": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "ck": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 64
+    },
+    "in": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 48
+    },
+    "out": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 26
+    },
+    "str": {
+      "dtype": "object",
+      "source_table": "pass_types",
+      "missing_values": 0,
+      "unique_values": 8
+    },
+    "cmp_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "off_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 16
+    },
+    "blocks_pass_types": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 56
+    },
+    "row_id_creation": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "sca": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "sca90": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "passlive": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 95
+    },
+    "passdead": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 32
+    },
+    "to": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 20
+    },
+    "sh_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 18
+    },
+    "fld_creation": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 16
+    },
+    "def": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 9
+    },
+    "gca": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 24
+    },
+    "gca90": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 80
+    },
+    "passlive1": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 19
+    },
+    "passdead1": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 7
+    },
+    "to1": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 8
+    },
+    "sh1": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 6
+    },
+    "fld1": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 6
+    },
+    "def1": {
+      "dtype": "object",
+      "source_table": "creation",
+      "missing_values": 0,
+      "unique_values": 4
+    },
+    "row_id_possession": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "touches": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "def_pen": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "def_3rd_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "mid_3rd_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att_3rd_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att_pen": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "live_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "att_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "succ": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 63
+    },
+    "succpct": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 83,
+      "unique_values": "too many to list"
+    },
+    "tkld": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 62
+    },
+    "tkldpct": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 83,
+      "unique_values": "too many to list"
+    },
+    "carries": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "totdist_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgdist_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgc_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "1_per_3_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 78
+    },
+    "cpa": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 55
+    },
+    "mis": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 79
+    },
+    "dis": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": 63
+    },
+    "rec": {
+      "dtype": "object",
+      "source_table": "possession",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "prgr_possession": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "row_id_shooting": {
+      "dtype": "int64",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 557
+    },
+    "rk_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "nation_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 67
+    },
+    "position_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 11
+    },
+    "team_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 21
+    },
+    "age_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 26
+    },
+    "born_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 4,
+      "unique_values": 25
+    },
+    "90s_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "gls_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 23
+    },
+    "sh_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 81
+    },
+    "sot": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 40
+    },
+    "sotpct": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 105,
+      "unique_values": "too many to list"
+    },
+    "sh_per_90": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "sot_per_90": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": "too many to list"
+    },
+    "g_per_sh": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 105,
+      "unique_values": 34
+    },
+    "g_per_sot": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 175,
+      "unique_values": 50
+    },
+    "dist": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 105,
+      "unique_values": "too many to list"
+    },
+    "fk_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 13
+    },
+    "pk_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 9
+    },
+    "pkatt_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 9
+    },
+    "xg_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 99
+    },
+    "npxg_shooting": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 98
+    },
+    "npxg_per_sh": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 105,
+      "unique_values": 31
+    },
+    "g_xg": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 69
+    },
+    "np:g_xg": {
+      "dtype": "object",
+      "source_table": "shooting",
+      "missing_values": 0,
+      "unique_values": 68
+    },
+    "data_source": {
+      "dtype": "object",
+      "source_table": "unknown",
+      "missing_values": 0,
+      "unique_values": 1
+    }
+  }
+}

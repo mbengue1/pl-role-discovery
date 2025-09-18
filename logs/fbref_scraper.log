@@ -1,0 +1,31 @@
+2025-09-17 19:07:00,838 - __main__ - INFO - Scraping standard table from https://fbref.com/en/comps/9/2024-2025/stats/2024-2025-Premier-League-Stats
+2025-09-17 19:07:11,200 - __main__ - ERROR - Error scraping standard table: RetryError[<Future at 0x14111fe50 state=finished raised HTTPError>]
+2025-09-17 19:07:11,200 - __main__ - ERROR - Failed to process standard table: RetryError[<Future at 0x14111fe50 state=finished raised HTTPError>]
+2025-09-17 19:07:11,201 - __main__ - INFO - Scraping shooting table from https://fbref.com/en/comps/9/2024-2025/shooting/2024-2025-Premier-League-Stats
+2025-09-17 19:07:21,430 - __main__ - ERROR - Error scraping shooting table: RetryError[<Future at 0x1273e3fd0 state=finished raised HTTPError>]
+2025-09-17 19:07:21,431 - __main__ - ERROR - Failed to process shooting table: RetryError[<Future at 0x1273e3fd0 state=finished raised HTTPError>]
+2025-09-17 19:07:21,432 - __main__ - INFO - Scraping passing table from https://fbref.com/en/comps/9/2024-2025/passing/2024-2025-Premier-League-Stats
+2025-09-17 19:07:31,680 - __main__ - ERROR - Error scraping passing table: RetryError[<Future at 0x14322bf50 state=finished raised HTTPError>]
+2025-09-17 19:07:31,681 - __main__ - ERROR - Failed to process passing table: RetryError[<Future at 0x14322bf50 state=finished raised HTTPError>]
+2025-09-17 19:07:31,681 - __main__ - INFO - Scraping passing_types table from https://fbref.com/en/comps/9/2024-2025/passing_types/2024-2025-Premier-League-Stats
+2025-09-17 19:07:41,939 - __main__ - ERROR - Error scraping passing_types table: RetryError[<Future at 0x143247c50 state=finished raised HTTPError>]
+2025-09-17 19:07:41,939 - __main__ - ERROR - Failed to process passing_types table: RetryError[<Future at 0x143247c50 state=finished raised HTTPError>]
+2025-09-17 19:07:41,940 - __main__ - INFO - Scraping gca table from https://fbref.com/en/comps/9/2024-2025/gca/2024-2025-Premier-League-Stats
+2025-09-17 19:07:52,241 - __main__ - ERROR - Error scraping gca table: RetryError[<Future at 0x1400b4710 state=finished raised HTTPError>]
+2025-09-17 19:07:52,242 - __main__ - ERROR - Failed to process gca table: RetryError[<Future at 0x1400b4710 state=finished raised HTTPError>]
+2025-09-17 19:07:52,243 - __main__ - INFO - Scraping defense table from https://fbref.com/en/comps/9/2024-2025/defense/2024-2025-Premier-League-Stats
+2025-09-17 19:08:02,491 - __main__ - ERROR - Error scraping defense table: RetryError[<Future at 0x1432599d0 state=finished raised HTTPError>]
+2025-09-17 19:08:02,492 - __main__ - ERROR - Failed to process defense table: RetryError[<Future at 0x1432599d0 state=finished raised HTTPError>]
+2025-09-17 19:08:02,494 - __main__ - INFO - Scraping possession table from https://fbref.com/en/comps/9/2024-2025/possession/2024-2025-Premier-League-Stats
+2025-09-17 19:08:12,732 - __main__ - ERROR - Error scraping possession table: RetryError[<Future at 0x140e4ed10 state=finished raised HTTPError>]
+2025-09-17 19:08:12,732 - __main__ - ERROR - Failed to process possession table: RetryError[<Future at 0x140e4ed10 state=finished raised HTTPError>]
+2025-09-17 19:08:12,732 - __main__ - INFO - Scraping playing_time table from https://fbref.com/en/comps/9/2024-2025/playingtime/2024-2025-Premier-League-Stats
+2025-09-17 19:08:22,972 - __main__ - ERROR - Error scraping playing_time table: RetryError[<Future at 0x143232b10 state=finished raised HTTPError>]
+2025-09-17 19:08:22,972 - __main__ - ERROR - Failed to process playing_time table: RetryError[<Future at 0x143232b10 state=finished raised HTTPError>]
+2025-09-17 19:08:22,973 - __main__ - INFO - Scraping misc table from https://fbref.com/en/comps/9/2024-2025/misc/2024-2025-Premier-League-Stats
+2025-09-17 19:08:33,210 - __main__ - ERROR - Error scraping misc table: RetryError[<Future at 0x14325acd0 state=finished raised HTTPError>]
+2025-09-17 19:08:33,210 - __main__ - ERROR - Failed to process misc table: RetryError[<Future at 0x14325acd0 state=finished raised HTTPError>]
+2025-09-17 19:08:33,210 - __main__ - INFO - Scraping completed
+2025-09-17 19:11:19,755 - __main__ - INFO - Testing access to FBref with URL: https://fbref.com/en/
+2025-09-17 19:11:19,863 - __main__ - ERROR - Failed to access FBref: 403 Client Error: Forbidden for url: https://fbref.com/en/
+2025-09-17 19:11:19,863 - __main__ - ERROR - Cannot access FBref. Exiting.
