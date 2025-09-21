@@ -1,0 +1,564 @@
+player,x,y,cluster,team,position
+Aaron Cresswell,5.6040864,5.9936404,1,West Ham,DF
+Aaron Ramsdale,9.648052,6.476221,0,Southampton,GK
+Aaron Wan-Bissaka,1.0191717,5.048904,0,West Ham,DF
+Abdoulaye Doucouré,2.2975807,5.242075,0,Everton,MF
+Abdukodir Khusanov,6.8819866,8.450378,1,Manchester City,DF
+Abdul Fatawu Issahaku,3.9508958,7.7882576,1,Leicester City,FW
+Adam Armstrong,4.433535,8.586962,1,Southampton,"FW,MF"
+Adam Lallana,5.869165,6.5570946,1,Southampton,MF
+Adam Smith,3.8982625,5.7101684,1,Bournemouth,DF
+Adam Webster,4.093469,5.880544,1,Brighton,DF
+Adam Wharton,3.3743815,6.698567,0,Crystal Palace,MF
+Adama Traoré,0.5531622,7.480264,2,Fulham,"FW,MF"
+Albert Grønbaek,6.5465775,8.647844,1,Southampton,"FW,MF"
+Alejandro Garnacho,0.3922991,7.8916154,2,Manchester Utd,"MF,FW"
+Alex Iwobi,-0.15075633,7.7062535,2,Fulham,"FW,MF"
+Alex McCarthy,7.698974,6.688107,1,Southampton,GK
+Alex Palmer,8.116097,6.877162,1,Ipswich Town,GK
+Alex Scott,3.5106826,6.9012785,1,Bournemouth,MF
+Alexander Isak,0.05867411,8.180294,2,Newcastle Utd,FW
+Alexis Mac Allister,0.5138221,5.8636274,0,Liverpool,MF
+Alfie Dorrington,7.496719,9.289192,1,Tottenham,DF
+Alfie Pond,7.798636,8.599197,1,Wolves,DF
+Ali Al Hamadi,6.49448,9.514256,1,Ipswich Town,FW
+Alisson,9.918746,6.006341,0,Liverpool,GK
+Alphonse Areola,9.893739,6.0241995,1,West Ham,GK
+Altay Bayındır,7.313782,7.6646175,1,Manchester Utd,GK
+Amad Diallo,0.19433352,7.7002473,2,Manchester Utd,"MF,FW"
+Amadou Onana,2.8101645,6.0519953,0,Aston Villa,MF
+Andreas Pereira,0.71637,6.5024915,2,Fulham,MF
+Andrew Robertson,1.0177237,5.7616596,0,Liverpool,DF
+André,2.3775682,4.658538,0,Wolves,MF
+André Onana,9.726792,6.401786,0,Manchester Utd,GK
+Andrés García,6.1978297,8.849086,1,Aston Villa,"DF,MF"
+Andy Irving,6.2247972,8.620455,1,West Ham,MF
+Anthony Elanga,0.11823827,7.1479235,2,Nott'ham Forest,"FW,MF"
+Anthony Gordon,-0.13737257,7.206565,2,Newcastle Utd,"FW,MF"
+Antoine Semenyo,-0.14343941,7.8243217,2,Bournemouth,FW
+Antonee Robinson,0.99128646,5.0564475,0,Fulham,DF
+Antony,5.217101,9.122352,1,Manchester Utd,"DF,MF"
+Antonín Kinský,7.904534,7.8265266,1,Tottenham,GK
+Archie Gray,4.5838532,5.8952236,0,Tottenham,"DF,MF"
+Arijanet Muric,9.423326,6.5177693,1,Ipswich Town,GK
+Armando Broja,6.1484003,9.044019,1,Everton,FW
+Armel Bella Kotchap,6.4854474,8.871573,1,Southampton,DF
+Asher Agbinone,6.2171793,9.661367,1,Crystal Palace,MF
+Ashley Young,3.2748516,5.913834,0,Everton,DF
+Axel Disasi,6.047123,8.189509,1,Aston Villa,DF
+Axel Tuanzebe,3.709315,5.7008615,0,Ipswich Town,DF
+Ayden Heaven,6.847796,9.082749,1,Manchester Utd,DF
+Bart Verbruggen,9.778508,6.4228864,0,Brighton,GK
+Ben Brereton,5.609612,8.94711,1,Southampton,FW
+Ben Chilwell,4.69953,8.80261,1,Crystal Palace,DF
+Ben Davies,5.184142,5.3760233,0,Tottenham,DF
+Ben Godfrey,6.5701895,8.382567,1,Ipswich Town,DF
+Ben Johnson,3.7357328,6.9376817,1,Ipswich Town,"DF,FW"
+Ben Mee,6.3053184,6.418488,1,Brentford,DF
+Ben White,3.8719556,6.152526,1,Arsenal,DF
+Ben Winterburn,7.6048913,8.431954,1,Bournemouth,"MF,FW"
+Benoît Badiashile,6.4028487,8.94638,1,Chelsea,DF
+Bernardo Silva,0.9559529,5.1774693,0,Manchester City,"MF,FW"
+Bernd Leno,9.937422,6.2487516,0,Fulham,GK
+Beto,2.269127,9.140317,2,Everton,FW
+Bilal El Khannouss,0.91817915,6.530051,0,Leicester City,"MF,FW"
+Billy Gilmour,6.3890657,8.612816,1,Brighton,MF
+Bobby De Cordova-Reid,4.637397,8.463571,1,Leicester City,FW
+Boubacar Kamara,2.7014024,5.3185267,0,Aston Villa,MF
+Boubacar Traoré,7.637943,8.375358,1,Wolves,MF
+Boubakary Soumaré,3.1109917,5.420826,0,Leicester City,MF
+Brajan Gruda,3.8413684,7.9389405,1,Brighton,"MF,FW"
+Brandon Austin,7.2462807,7.806373,1,Tottenham,GK
+Brennan Johnson,0.46572638,8.290322,2,Tottenham,FW
+Bruno Fernandes,-0.028904827,6.4050364,2,Manchester Utd,MF
+Bruno Guimarães,0.69596267,5.455871,0,Newcastle Utd,MF
+Bryan Mbeumo,-0.3257772,7.077019,2,Brentford,FW
+Bukayo Saka,-0.07295821,7.279179,2,Arsenal,"FW,MF"
+Caleb Kporha,7.85599,9.0070095,1,Crystal Palace,DF
+Caleb Okoli,4.4177856,6.229276,1,Leicester City,DF
+Callum Hudson-Odoi,0.68604285,7.4724717,2,Nott'ham Forest,"FW,MF"
+Callum Wilson,6.2063336,6.9870863,1,Newcastle Utd,FW
+Calvin Bassey,2.7206469,3.5340223,0,Fulham,DF
+Cameron Archer,4.476807,8.686734,1,Southampton,FW
+Cameron Burgess,5.146213,5.3459353,1,Ipswich Town,DF
+Caoimhín Kelleher,7.9951696,7.15589,1,Liverpool,GK
+Carlos Alcaraz,6.0629807,9.7610445,1,Southampton,MF
+Carlos Baleba,1.5784869,4.419582,0,Brighton,MF
+Carlos Forbs,6.21889,9.177481,1,Wolves,"MF,FW"
+Carlos Soler,3.6696887,6.435484,1,West Ham,"MF,FW"
+Carlos Vinícius,6.3390107,7.0328207,1,Fulham,"MF,FW"
+Casemiro,2.3397079,5.027973,0,Manchester Utd,MF
+Chadi Riad,7.392592,8.378134,1,Crystal Palace,DF
+Charlie Taylor,6.569068,6.7718916,1,Southampton,DF
+Cheick Doucouré,5.8588867,8.57044,1,Crystal Palace,MF
+Chidozie Obi-Martin,7.613238,9.074081,1,Manchester Utd,FW
+Chiedozie Ogbene,6.5091987,7.3632474,1,Ipswich Town,FW
+Chiquinho,6.1594014,9.677068,1,Wolves,MF
+Chris Richards,3.541118,5.401238,0,Crystal Palace,DF
+Chris Wood,0.6875418,8.975631,2,Nott'ham Forest,FW
+Christian Eriksen,4.178262,6.8196754,2,Manchester Utd,MF
+Christian Nørgaard,1.7090315,4.922056,0,Brentford,MF
+Christian Walton,7.940213,6.980658,1,Ipswich Town,GK
+Christopher Nkunku,2.7985182,9.051438,2,Chelsea,FW
+Claudio Echeverri,7.5778203,9.309909,1,Manchester City,FW
+Cody Gakpo,0.2554696,8.198737,2,Liverpool,FW
+Cole Palmer,-0.20948209,7.0567966,2,Chelsea,"MF,FW"
+Conor Bradley,4.160041,7.751312,1,Liverpool,DF
+Conor Chaplin,4.618439,8.584728,1,Ipswich Town,"MF,FW"
+Conor Coady,5.0510983,5.2103004,0,Leicester City,DF
+Conor Townsend,6.507868,6.6914077,1,Ipswich Town,DF
+Craig Dawson,5.491731,5.7309527,1,Wolves,DF
+Cristian Romero,3.2900312,4.916253,0,Tottenham,DF
+Crysencio Summerville,3.3678782,7.7238884,1,West Ham,"FW,MF"
+Curtis Jones,2.4076095,6.22644,0,Liverpool,"MF,DF"
+Daichi Kamada,2.6097155,5.587292,0,Crystal Palace,MF
+Dan Burn,3.2233152,3.9250515,0,Newcastle Utd,DF
+Dane Scarlett,7.001687,9.582139,1,Tottenham,"FW,MF"
+Dango Ouattara,0.39527503,8.080339,2,Bournemouth,FW
+Daniel Bentley,7.4301977,6.981824,1,Wolves,GK
+Daniel Jebbison,3.8698263,9.297055,1,Bournemouth,FW
+Daniel Muñoz,1.0489836,5.0657105,0,Crystal Palace,DF
+Daniel Podence,6.601052,7.3696012,1,Wolves,"MF,FW"
+Danilo,6.2689595,8.834355,1,Nott'ham Forest,"MF,FW"
+Danny Ings,3.591273,9.157299,1,West Ham,"FW,MF"
+Danny Ward,7.4537477,6.6064587,1,Leicester City,GK
+Danny Welbeck,0.6924481,8.981731,2,Brighton,FW
+Dara O'Shea,2.7324831,3.6981647,0,Ipswich Town,DF
+Darwin Núñez,2.5937107,9.010268,2,Liverpool,FW
+David Brooks,4.109584,8.415005,2,Bournemouth,"FW,MF"
+David Raya,9.840784,6.3271294,0,Arsenal,GK
+Dean Henderson,9.927077,6.215177,0,Crystal Palace,GK
+Dean Huijsen,2.6848996,3.4616678,0,Bournemouth,DF
+Declan Rice,0.3573547,6.098967,0,Arsenal,MF
+Dejan Kulusevski,0.042409584,7.4803624,2,Tottenham,"MF,FW"
+Destiny Udogie,2.2507932,5.732754,0,Tottenham,DF
+Diego Carlos,5.5408707,5.6779323,1,Aston Villa,DF
+Diego Gómez,4.319042,7.8113227,1,Brighton,MF
+Diogo Dalot,1.3443472,4.80943,0,Manchester Utd,DF
+Diogo Jota,2.4630432,9.016396,2,Liverpool,FW
+Divin Mubama,7.899506,9.050721,1,Manchester City,FW
+Djed Spence,2.087945,5.666262,0,Tottenham,DF
+Dominic Calvert-Lewin,2.4293292,9.090622,2,Everton,FW
+Dominic Solanke,0.6603664,8.914763,2,Tottenham,FW
+Dominik Szoboszlai,0.07753074,6.6548243,2,Liverpool,MF
+Donyell Malen,3.395966,9.195633,1,Aston Villa,FW
+Dwight McNeil,0.29486537,6.8813033,2,Everton,"MF,FW"
+Eberechi Eze,-0.2687307,7.058106,2,Crystal Palace,"MF,FW"
+Eddie Nketiah,2.6243236,8.999775,2,Crystal Palace,"FW,MF"
+Ederson,9.91664,6.1268225,0,Manchester City,GK
+Edmond-Paris Maghoma,6.146549,8.677908,1,Brentford,"MF,FW"
+Edson Álvarez,2.610428,4.7943015,0,West Ham,MF
+Eiran Cashin,6.4764924,9.046923,1,Brighton,DF
+Elliot Anderson,0.5953175,5.53294,0,Nott'ham Forest,MF
+Emerson Palmieri,2.9889636,5.872567,0,West Ham,DF
+Emi Buendía,5.223678,9.094499,1,Aston Villa,"MF,FW"
+Emil Krafth,6.2259,6.5839505,1,Newcastle Utd,DF
+Emile Smith Rowe,1.9645903,6.4700785,2,Fulham,MF
+Emiliano Martínez,9.8573065,6.328666,0,Aston Villa,GK
+Emmanuel Agbadou,4.995958,5.3352356,0,Wolves,DF
+Enes Ünal,3.250546,9.12293,1,Bournemouth,"FW,MF"
+Enzo Fernández,0.38053185,5.8070173,0,Chelsea,MF
+Eric da Silva Moreira,7.516667,8.359944,1,Nott'ham Forest,"MF,DF"
+Erling Haaland,0.6537784,8.694833,2,Manchester City,FW
+Ethan Nwaneri,3.6517339,7.853205,2,Arsenal,"FW,MF"
+Ethan Pinnock,3.3280826,4.634123,0,Brentford,DF
+Evan Ferguson,6.7280016,9.680384,1,West Ham,FW
+Evanilson,0.45877343,8.590393,2,Bournemouth,FW
+Ezri Konsa,2.855152,3.841028,0,Aston Villa,DF
+Fabian Schär,2.5293474,4.0517488,0,Newcastle Utd,DF
+Fabio Carvalho,3.7613184,9.053393,1,Brentford,"FW,MF"
+Facundo Buonanotte,1.4796784,6.7229753,2,Leicester City,"FW,MF"
+Federico Chiesa,5.238751,9.076733,1,Liverpool,FW
+Ferdi Kadioglu,5.159062,8.098835,1,Brighton,"DF,MF"
+Filip Jørgensen,7.9159956,7.770553,1,Chelsea,GK
+Flynn Downes,2.56073,4.778592,0,Southampton,MF
+Frank Onyeka,6.9982867,7.4677486,1,Brentford,MF
+Fraser Forster,7.8087935,6.5988836,1,Tottenham,GK
+Gabriel Jesus,3.2721941,9.158065,1,Arsenal,FW
+Gabriel Magalhães,3.0061362,3.8319464,0,Arsenal,DF
+Gabriel Martinelli,0.18288948,7.981728,2,Arsenal,"FW,MF"
+George Edmundson,7.139854,7.793747,1,Ipswich Town,DF
+George Hirst,3.262492,9.083154,1,Ipswich Town,FW
+Georginio Rutter,0.7234124,8.004258,2,Brighton,"MF,FW"
+Gonçalo Guedes,3.9001942,8.470513,2,Wolves,"MF,FW"
+Guglielmo Vicario,9.712211,6.4486628,1,Tottenham,GK
+Guido Rodríguez,4.179646,5.8983173,1,West Ham,MF
+Gustavo Nunes,7.9308887,8.957374,1,Brentford,"FW,MF"
+Hamza Choudhury,6.060422,8.807034,1,Leicester City,"MF,DF"
+Harrison Armstrong,6.707905,9.66672,1,Everton,MF
+Harrison Reed,6.350935,7.06601,1,Fulham,MF
+Harry Amass,6.5271916,9.2043,1,Manchester Utd,DF
+Harry Clarke,6.3096323,8.8777275,1,Ipswich Town,DF
+Harry Howell,7.8555875,9.210233,1,Brighton,FW
+Harry Maguire,3.2597637,4.543925,0,Manchester Utd,DF
+Harry Toffolo,6.664351,6.7177973,1,Nott'ham Forest,DF
+Harry Wilson,2.7718816,8.808465,2,Fulham,"FW,MF"
+Harry Winks,3.69894,6.164379,0,Leicester City,MF
+Harvey Barnes,0.22224854,8.147481,2,Newcastle Utd,FW
+Harvey Elliott,3.85447,8.87598,1,Liverpool,MF
+Hwang Hee-chan,4.735003,8.403939,1,Wolves,"MF,FW"
+Hákon Valdimarsson,8.027696,7.620276,1,Brentford,GK
+Ian Maatsen,3.5310912,7.2343144,2,Aston Villa,DF
+Ibrahim Sangaré,4.3436613,6.4673276,1,Nott'ham Forest,MF
+Ibrahima Konaté,2.8269548,3.6236818,0,Liverpool,DF
+Idrissa Gana Gueye,2.0593739,5.0044103,0,Everton,MF
+Igor,5.111256,5.87987,1,Brighton,DF
+Iliman Ndiaye,0.6097216,7.6047688,2,Everton,FW
+Illia Zabarnyi,2.5183787,3.4029534,0,Bournemouth,DF
+Ismaila Sarr,-0.09177235,7.9986863,2,Crystal Palace,MF
+Issa Diop,5.1251006,5.560909,1,Fulham,DF
+Jack Clarke,3.9573843,8.059126,1,Ipswich Town,"FW,MF"
+Jack Grealish,4.1501517,8.413642,1,Manchester City,"FW,MF"
+Jack Harrison,1.1479858,6.9107037,2,Everton,FW
+Jack Hinshelwood,2.6669662,6.075944,0,Brighton,"MF,DF"
+Jack Stephens,3.9244695,5.6512733,0,Southampton,DF
+Jack Taylor,4.067161,6.5981083,1,Ipswich Town,MF
+Jacob Greaves,3.1150787,3.8681188,0,Ipswich Town,DF
+Jacob Murphy,-0.2646751,7.7324066,2,Newcastle Utd,FW
+Jacob Ramsey,2.417915,6.6465726,2,Aston Villa,"FW,MF"
+Jaden Philogene Bidace,6.9921002,8.133204,1,Aston Villa,"FW,MF"
+Jadon Sancho,0.82312024,7.4136763,2,Chelsea,FW
+Jahmai Simpson-Pusey,7.876221,8.653637,1,Manchester City,DF
+Jake Evans,6.9813848,8.099376,1,Leicester City,FW
+Jake O'Brien,4.453068,6.2231445,1,Everton,DF
+Jakub Kiwior,4.7522597,6.3500414,1,Arsenal,DF
+Jakub Moder,6.086331,9.728315,1,Brighton,MF
+Jakub Stolarczyk,8.107323,7.224816,1,Leicester City,GK
+James Bree,5.265381,5.9124274,1,Southampton,DF
+James Garner,2.500473,5.7794094,0,Everton,"MF,DF"
+James Hill,5.7253103,8.4337015,1,Bournemouth,DF
+James Justin,1.4603575,4.782839,0,Leicester City,DF
+James Maddison,0.1487193,6.9050384,2,Tottenham,MF
+James Mcatee,3.6493306,9.260315,1,Manchester City,"MF,FW"
+James Milner,6.0554295,6.568438,1,Brighton,MF
+James Tarkowski,2.7671323,4.237029,0,Everton,DF
+James Ward-Prowse,3.6697204,6.377203,1,West Ham,MF
+Jamie Vardy,0.66549045,9.001308,2,Leicester City,FW
+Jan Bednarek,3.1361055,3.7992141,0,Southampton,DF
+Jan Paul van Hecke,2.4672594,3.5451965,0,Brighton,DF
+Jannik Vestergaard,4.237444,5.7373366,1,Leicester City,DF
+Jarell Quansah,6.7393494,8.168626,1,Liverpool,DF
+Jarrad Branthwaite,2.9558709,3.706126,0,Everton,DF
+Jarrod Bowen,-0.30043328,7.1609225,2,West Ham,"FW,MF"
+Jason Steele,7.374447,6.568412,1,Brighton,GK
+Jay Robinson,6.703787,9.748819,1,Southampton,"MF,FW"
+Jay Stansfield,7.869412,8.511143,1,Fulham,MF
+Jayden Danns,7.5130873,9.315512,1,Liverpool,MF
+Jayden Meghoma,7.9313745,9.031008,1,Brentford,DF
+Jean-Clair Todibo,3.4488583,5.2974806,0,West Ham,DF
+Jean-Philippe Mateta,0.6108436,8.870491,2,Crystal Palace,FW
+Jean-Ricner Bellegarde,3.898222,8.175652,2,Wolves,"MF,FW"
+Jefferson Lerma,2.424007,4.9315886,0,Crystal Palace,"MF,DF"
+Jeffrey Schlupp,6.1502995,6.8862276,1,Crystal Palace,"MF,DF"
+Jens Cajuste,2.694691,4.8310604,0,Ipswich Town,MF
+Jeremy Doku,0.6524839,7.4991913,2,Manchester City,"FW,MF"
+Jeremy Monga,6.3862762,7.3537188,1,Leicester City,"FW,MF"
+Jeremy Sarmiento,7.8733444,8.666684,1,Brighton,MF
+Jesper Lindstrøm,2.9078746,6.706094,2,Everton,FW
+Joachim Andersen,7.1894875,7.4084697,1,Crystal Palace,DF
+Joachim Kayi Sanda,7.916248,9.114614,1,Southampton,DF
+Joe Aribo,2.6389875,4.759452,0,Southampton,"MF,DF"
+Joe Gomez,5.5164814,6.189879,1,Liverpool,DF
+Joe Lumley,7.6668725,6.8600645,1,Southampton,GK
+Joe Willock,3.2860713,7.044965,1,Newcastle Utd,"MF,FW"
+Joel Ward,6.740341,6.628622,1,Crystal Palace,DF
+Joelinton,1.9501597,5.310629,0,Newcastle Utd,"MF,FW"
+John McGinn,1.273493,6.219619,0,Aston Villa,"MF,FW"
+John Stones,4.8044,7.8617115,1,Manchester City,"DF,MF"
+Jonny Evans,6.2847567,6.1576777,1,Manchester Utd,DF
+Jordan Ayew,5.3250957,9.018183,1,Crystal Palace,"FW,MF"
+Jordan Pickford,9.949169,6.2380524,0,Everton,GK
+Jorge Cuenca,6.7994523,8.523688,1,Fulham,DF
+Jorginho,5.829707,6.345704,1,Arsenal,MF
+Joshua Acheampong,7.042584,9.336422,1,Chelsea,DF
+Joshua King,6.524344,9.659786,1,Fulham,MF
+Joshua Zirkzee,2.6577003,8.833623,2,Manchester Utd,"FW,MF"
+José Sá,9.778,6.406355,0,Wolves,GK
+Jota Silva,2.8340673,8.650493,2,Nott'ham Forest,"FW,MF"
+João Félix,3.7962825,9.027781,1,Chelsea,"FW,MF"
+João Gomes,1.4421273,4.4249,0,Wolves,MF
+João Pedro,0.13275519,8.274666,2,Brighton,"FW,MF"
+Joël Veltman,3.4686763,5.722134,0,Brighton,DF
+Joško Gvardiol,1.2419361,4.579203,0,Manchester City,DF
+Julian Araujo,6.3170743,8.956032,1,Bournemouth,DF
+Julio Enciso,3.716104,7.846777,2,Ipswich Town,"MF,FW"
+Julio Soler,7.748257,8.478975,1,Bournemouth,"DF,FW"
+Jurriën Timber,1.7001655,5.3131013,0,Arsenal,DF
+Justin Devenny,4.2979913,7.999803,1,Crystal Palace,MF
+Justin Kluivert,-0.2706464,7.508159,2,Bournemouth,MF
+Jáder Durán,3.0717916,9.296927,2,Aston Villa,FW
+Jørgen Strand Larsen,0.8040856,8.749764,2,Wolves,FW
+Kaelan Casey,7.523007,9.224273,1,West Ham,DF
+Kai Havertz,0.9549813,8.72488,2,Arsenal,"FW,MF"
+Kalvin Phillips,3.808814,5.9134827,1,Ipswich Town,MF
+Kamaldeen Sulemana,3.3241332,7.443304,2,Southampton,"FW,MF"
+Kaoru Mitoma,-0.17094308,7.908064,2,Brighton,"FW,MF"
+Kasey McAteer,3.7002306,7.4167795,1,Leicester City,FW
+Keane Lewis-Potter,0.88670415,4.836895,0,Brentford,"DF,FW"
+Kenny Tete,2.979049,5.6778936,0,Fulham,DF
+Kepa Arrizabalaga,9.969554,6.001572,0,Bournemouth,GK
+Kevin Danso,5.2419915,5.899727,1,Tottenham,DF
+Kevin De Bruyne,0.28457355,6.88535,2,Manchester City,"MF,FW"
+Kevin Schade,0.50686353,8.3058405,2,Brentford,FW
+Kieran Tierney,3.4420621,8.61277,1,Arsenal,"DF,FW"
+Kieran Trippier,3.4461093,6.2670484,0,Newcastle Utd,DF
+Kiernan Dewsbury-Hall,5.679403,8.688061,1,Chelsea,"MF,FW"
+Kim Jisoo,7.6106586,8.816838,1,Brentford,DF
+Kobbie Mainoo,2.7268825,6.1578946,0,Manchester Utd,MF
+Konstantinos Mavropanos,3.1740763,4.4019847,0,West Ham,DF
+Kosta Nedeljković,7.7907534,8.927914,1,Aston Villa,DF
+Kostas Tsimikas,3.5936096,6.4302473,1,Liverpool,DF
+Kristoffer Ajer,5.025198,5.567807,1,Brentford,DF
+Kyle Walker,4.051512,5.7405825,1,Manchester City,DF
+Kyle Walker-Peters,1.1151896,5.060028,0,Southampton,DF
+Lamare Bogarde,6.3799644,9.121174,1,Aston Villa,"DF,MF"
+Leandro Trossard,-0.28110343,7.917222,2,Arsenal,FW
+Leif Davis,1.2070272,5.5420704,0,Ipswich Town,DF
+Leny Yoro,4.02955,6.2763853,1,Manchester Utd,DF
+Leon Bailey,4.111918,8.388592,2,Aston Villa,"FW,MF"
+Lesley Ugochukwu,3.4593902,6.11333,0,Southampton,MF
+Levi Colwill,2.5601726,3.4385207,0,Chelsea,DF
+Lewis Cook,1.2870296,5.5138144,0,Bournemouth,"MF,DF"
+Lewis Dunk,3.3150804,4.0463295,0,Brighton,DF
+Lewis Hall,1.2621329,5.4036674,0,Newcastle Utd,DF
+Lewis Miley,4.521009,9.149946,1,Newcastle Utd,MF
+Lewis Orford,7.3488903,8.766484,1,West Ham,MF
+Liam Delap,0.379826,8.5977545,2,Ipswich Town,FW
+Lisandro Martínez,3.0123866,4.7938433,0,Manchester Utd,DF
+Lloyd Kelly,5.806098,8.39237,1,Newcastle Utd,DF
+Lucas Bergvall,4.22517,7.293265,1,Tottenham,MF
+Lucas Digne,1.4904596,5.6654525,0,Aston Villa,DF
+Lucas Paquetá,0.96333015,5.7453003,0,West Ham,"MF,FW"
+Luis Díaz,-0.02704707,8.060214,2,Liverpool,FW
+Luis Guilherme,6.613744,9.683235,1,West Ham,"MF,FW"
+Luis Sinisterra,3.4724069,8.84127,1,Bournemouth,"FW,MF"
+Luke Shaw,6.136867,6.726164,1,Manchester Utd,DF
+Luke Thomas,3.956741,6.1591096,1,Leicester City,DF
+Luke Woolfenden,4.1534047,6.132479,1,Ipswich Town,DF
+Mads Hermansen,9.697848,6.3433166,1,Leicester City,GK
+Mads Roerslev,3.931482,6.705306,1,Brentford,DF
+Malo Gusto,1.9346137,5.475145,0,Chelsea,DF
+Manuel Akanji,3.3371892,4.001083,0,Manchester City,DF
+Manuel Ugarte,2.8663526,6.0431175,0,Manchester Utd,MF
+Marc Cucurella,1.5278643,4.4389877,0,Chelsea,DF
+Marc Guiu,7.1340427,8.993183,1,Chelsea,FW
+Marc Guéhi,2.49672,3.521987,0,Crystal Palace,DF
+Marco Asensio,4.2623816,8.634293,2,Aston Villa,MF
+Marcos Senesi,3.9336486,5.777383,1,Bournemouth,DF
+Marcus Harness,6.436563,8.282933,1,Ipswich Town,MF
+Marcus Rashford,3.0425332,8.830362,2,Manchester Utd,"FW,MF"
+Marcus Tavernier,0.23928922,6.7851577,2,Bournemouth,"FW,MF"
+Mario Lemina,2.9001026,5.231236,0,Wolves,"MF,DF"
+Mark Flekken,9.998597,6.0994477,0,Brentford,GK
+Mark Travers,8.047423,7.368049,1,Bournemouth,GK
+Marshall Munetsi,3.0526137,8.954723,1,Wolves,"MF,FW"
+Martial Godo,6.179722,9.674025,1,Fulham,"FW,DF"
+Martin Dúbravka,7.8350587,6.6468453,1,Newcastle Utd,GK
+Martin Ødegaard,0.08734771,6.721323,2,Arsenal,MF
+Mason Holgate,6.8964663,7.931184,1,Everton,"FW,DF"
+Mason Mount,3.1372783,9.022047,1,Manchester Utd,MF
+Massimo Luongo,6.4308543,6.5633907,1,Ipswich Town,MF
+Mateo Kovačić,1.5890366,4.9296966,0,Manchester City,MF
+Mateus Fernandes,0.5268047,5.6108365,0,Southampton,MF
+Mateus Mane,6.803935,7.5744705,1,Wolves,MF
+Matheus Cunha,-0.23958467,7.085422,2,Wolves,"MF,FW"
+Matheus França,3.9564433,9.351994,1,Crystal Palace,"MF,FW"
+Matheus Nunes,2.0985107,6.247408,0,Manchester City,"DF,MF"
+Mathias Jensen,4.4020047,6.865592,1,Brentford,MF
+Mathis Amougou,7.4971547,9.341971,1,Chelsea,MF
+Mathys Tel,3.2883625,7.760268,2,Tottenham,FW
+Mats Wieffer,2.9748137,6.1978874,0,Brighton,"DF,MF"
+Matt Doherty,3.3582413,4.310836,0,Wolves,DF
+Matt O'Riley,3.245143,7.734445,2,Brighton,MF
+Matt Targett,6.785386,6.9757276,1,Newcastle Utd,DF
+Matthijs de Ligt,3.123882,4.2082357,0,Manchester Utd,DF
+Matty Cash,2.4742632,4.905957,0,Aston Villa,DF
+Matz Sels,9.873166,6.355721,0,Nott'ham Forest,GK
+Max Aarons,6.5326643,8.88081,1,Bournemouth,DF
+Max Kilman,2.6668315,3.594644,0,West Ham,DF
+Maxence Lacroix,2.7438197,3.6681523,0,Crystal Palace,DF
+Maxwel Cornet,6.4743414,8.436792,1,Southampton,FW
+Michael Golding,7.585433,8.924199,1,Leicester City,MF
+Michael Kayode,5.569517,8.3913145,1,Brentford,DF
+Michael Keane,5.333474,6.598525,1,Everton,DF
+Michail Antonio,4.5659046,8.658911,1,West Ham,FW
+Micky van de Ven,4.0956464,6.1787834,1,Tottenham,DF
+Miguel Almirón,5.160381,9.017139,1,Newcastle Utd,FW
+Mikel Merino,1.8206735,8.734757,2,Arsenal,"MF,FW"
+Mikey Moore,5.73148,8.527301,1,Tottenham,FW
+Mikkel Damsgaard,0.45455703,5.6116104,0,Brentford,"MF,FW"
+Milos Kerkez,0.8796896,4.895175,0,Bournemouth,DF
+Mohamed Salah,-0.3482783,7.8951907,2,Liverpool,FW
+Mohammed Kudus,0.18158075,7.854572,2,West Ham,"FW,MF"
+Moisés Caicedo,1.459125,4.356412,0,Chelsea,"MF,DF"
+Morato,4.794474,6.43272,1,Nott'ham Forest,DF
+Morgan Gibbs-White,-0.106793635,7.7422023,2,Nott'ham Forest,MF
+Morgan Rogers,-0.099829435,7.86052,2,Aston Villa,"FW,MF"
+Murillo,2.6312375,3.522143,0,Nott'ham Forest,DF
+Mykhailo Mudryk,6.4741974,9.843941,1,Chelsea,FW
+Myles Lewis-Skelly,3.9402707,7.05849,1,Arsenal,DF
+Nasser Djiga,6.84598,8.975767,1,Wolves,DF
+Nathan Aké,5.6549144,5.852399,1,Manchester City,DF
+Nathan Broadhead,4.356294,8.670493,1,Ipswich Town,"MF,FW"
+Nathan Butler-Oyedeji,7.3361783,9.470592,1,Arsenal,FW
+Nathan Collins,2.7008414,3.464254,0,Brentford,DF
+Nathan Patterson,5.8312893,8.351634,1,Everton,DF
+Nathan Wood-Gordon,4.296222,6.216154,1,Southampton,DF
+Nathaniel Clyne,5.9249654,6.2833333,1,Crystal Palace,"DF,MF"
+Neco Williams,1.3043364,5.1615224,0,Nott'ham Forest,DF
+Neto,7.5445786,6.5949707,1,Bournemouth,GK
+Nick Pope,9.748036,6.4254885,1,Newcastle Utd,GK
+Niclas Füllkrug,3.6850371,9.06905,1,West Ham,FW
+Nico O’Reilly,4.126008,9.096168,1,Manchester City,DF
+Nicolas Jackson,0.37437627,8.462647,2,Chelsea,FW
+Nicolás Domínguez,2.436031,4.9099097,0,Nott'ham Forest,"MF,FW"
+Nicolás González,4.735071,7.0267043,1,Manchester City,MF
+Nikola Milenković,2.887818,4.0979505,0,Nott'ham Forest,DF
+Noni Madueke,0.24927971,7.9849396,2,Chelsea,FW
+Noussair Mazraoui,1.4615989,4.7987065,0,Manchester Utd,DF
+Nélson Semedo,1.172929,5.053299,0,Wolves,DF
+Odsonne Édouard,5.7005534,8.8231,1,Crystal Palace,"MF,FW"
+Ola Aina,1.7358729,4.6099663,0,Nott'ham Forest,DF
+Olabade Aluko,6.7029767,8.664113,1,Leicester City,DF
+Oleksandr Zinchenko,5.499447,6.895411,1,Arsenal,"DF,MF"
+Oliver Scarles,6.8135605,8.147156,1,West Ham,"DF,FW"
+Oliver Skipp,4.137396,6.3514194,1,Leicester City,MF
+Ollie Watkins,0.6829264,8.932826,2,Aston Villa,FW
+Omar Marmoush,2.5723243,8.968458,2,Manchester City,"FW,MF"
+Omari Hutchinson,0.8802719,7.122275,2,Ipswich Town,"MF,FW"
+Orel Mangala,4.6354656,6.6045175,1,Everton,MF
+Oscar Bobb,6.1863065,9.658821,1,Manchester City,FW
+Pablo Sarabia,3.08875,8.746398,2,Wolves,"MF,FW"
+Pape Matar Sarr,2.3699238,6.1722,0,Tottenham,MF
+Patrick Dorgu,4.2371316,7.430861,1,Manchester Utd,DF
+Patson Daka,4.7765617,8.665817,1,Leicester City,"FW,MF"
+Pau Torres,3.3032043,4.8641114,0,Aston Villa,DF
+Paul Onuachu,3.0737536,9.122652,1,Southampton,FW
+Pedro Lima,6.7127194,9.738838,1,Wolves,DF
+Pedro Neto,0.14584872,7.103439,2,Chelsea,FW
+Pedro Porro,0.56422347,5.868955,0,Tottenham,DF
+Pervis Estupiñán,1.3913459,5.5260677,0,Brighton,DF
+Phil Foden,0.22109486,6.9873133,2,Manchester City,"MF,FW"
+Philip Billing,5.1458707,9.006913,1,Bournemouth,MF
+Player,-0.23341453,6.7740083,2,Squad,Pos
+Radu Drăgușin,4.937881,5.7061515,1,Tottenham,DF
+Raheem Sterling,5.4170475,7.0327835,1,Arsenal,"FW,MF"
+Ramón Sosa,3.388783,8.720148,1,Nott'ham Forest,"FW,MF"
+Rasmus Højlund,2.492002,8.970809,2,Manchester Utd,FW
+Rayan Aït-Nouri,0.51052254,5.5100064,0,Wolves,DF
+Raúl Jiménez,0.58945554,8.866278,2,Fulham,FW
+Reece James,4.492038,6.8029027,1,Chelsea,"DF,MF"
+Reiss Nelson,7.551709,8.133675,1,Arsenal,FW
+Remy Rees-Dottin,7.9100776,8.662897,1,Bournemouth,FW
+Renato Veiga,7.233212,8.228979,1,Chelsea,"DF,MF"
+Ricardo Pereira,6.350535,6.6969023,1,Leicester City,DF
+Riccardo Calafiori,4.4866486,7.182913,1,Arsenal,DF
+Richarlison,3.3137922,9.191876,1,Tottenham,FW
+Rico Henry,6.1615353,7.97728,1,Brentford,DF
+Rico Lewis,2.403,5.942796,0,Manchester City,"DF,MF"
+Robert Sánchez,9.720154,6.444288,0,Chelsea,GK
+Robin Olsen,7.4777346,6.5840173,1,Aston Villa,GK
+Rodri,6.687746,7.016658,1,Manchester City,MF
+Rodrigo Bentancur,2.589647,4.8229694,0,Tottenham,MF
+Rodrigo Gomes,4.359788,7.7801056,1,Wolves,"DF,FW"
+Rodrigo Muniz,2.8574705,9.222201,2,Fulham,FW
+Romain Esse,4.0354486,9.220061,1,Crystal Palace,MF
+Roman Dixon,7.004034,8.999828,1,Everton,DF
+Roméo Lavia,5.574675,8.123062,1,Chelsea,MF
+Ronnie Edwards,7.3998933,9.197749,1,Southampton,DF
+Ross Barkley,4.3331738,8.7506695,1,Aston Villa,MF
+Ross Stewart,6.137239,7.175516,1,Southampton,FW
+Ryan Christie,1.5913054,5.746889,0,Bournemouth,MF
+Ryan Fraser,7.093931,7.1585946,1,Southampton,"FW,DF"
+Ryan Gravenberch,1.3943814,4.4535785,0,Liverpool,MF
+Ryan Manning,3.2550724,6.328343,0,Southampton,"DF,MF"
+Ryan Sessegnon,3.2282996,8.758925,1,Fulham,"FW,DF"
+Ryan Trevitt,7.464018,8.284338,1,Brentford,MF
+Ryan Yates,2.8714786,6.080038,0,Nott'ham Forest,MF
+Rúben Dias,3.045372,3.69639,0,Manchester City,DF
+Sam Johnstone,7.852419,6.732428,1,Wolves,GK
+Sam Morsy,2.1439114,4.783307,0,Ipswich Town,MF
+Sammie Szmodics,3.0779634,8.995574,1,Ipswich Town,"FW,MF"
+Samuel Amo-Ameyaw,6.2010098,9.621034,1,Southampton,"FW,DF"
+Samuel Edozie,6.1336617,9.54405,1,Southampton,"DF,FW"
+Sander Berge,2.611115,4.67583,0,Fulham,MF
+Sandro Tonali,0.7018422,5.967407,0,Newcastle Utd,MF
+Santiago Bueno,4.9409814,5.424833,0,Wolves,DF
+Saša Lukić,1.6339729,5.6350884,0,Fulham,MF
+Scott McTominay,6.736837,7.343395,1,Manchester Utd,MF
+Sean Longstaff,5.1098013,6.440152,1,Newcastle Utd,MF
+Sepp van den Berg,2.9786234,3.74154,0,Brentford,DF
+Sergio Reguilón,6.3970675,6.9434304,1,Tottenham,DF
+Shumaira Mheuka,7.4242315,9.345476,1,Chelsea,MF
+Simon Adingra,3.9467144,8.141855,2,Brighton,"FW,MF"
+Solly March,6.083554,6.6978207,1,Brighton,"FW,MF"
+Son Heung-min,-0.31428292,7.456888,2,Tottenham,FW
+Stefan Ortega,7.9814296,6.6737885,1,Manchester City,GK
+Stephy Mavididi,0.8098005,7.3835783,2,Leicester City,FW
+Sven Botman,6.1014214,8.9425335,1,Newcastle Utd,DF
+Sávio,0.33716983,7.628078,2,Manchester City,"FW,MF"
+Séamus Coleman,6.2888827,6.087459,1,Everton,DF
+Taiwo Awoniyi,4.4301944,8.821641,1,Nott'ham Forest,FW
+Takehiro Tomiyasu,6.768654,7.4215918,1,Arsenal,DF
+Tariq Lamptey,4.5922847,7.544303,1,Brighton,DF
+Taylor Harwood-Bellis,2.7913122,3.5418108,0,Southampton,DF
+Thiago,6.96019,8.0856,1,Brentford,"FW,MF"
+Thomas Partey,1.6569705,4.930542,0,Arsenal,"MF,DF"
+Tim Iroegbunam,5.6174207,8.297059,1,Everton,MF
+Timo Werner,3.4342928,8.238092,1,Tottenham,"FW,MF"
+Timothy Castagne,4.779847,5.2469907,0,Fulham,DF
+Toby Collyer,6.640387,9.179738,1,Manchester Utd,MF
+Tom Cairney,4.3701277,8.520566,1,Fulham,MF
+Tom King,7.174817,7.3108125,1,Wolves,GK
+Tommy Doyle,4.411219,7.7743835,1,Wolves,MF
+Tomáš Souček,1.6231642,8.495637,0,West Ham,MF
+Tosin Adarabioyo,5.053414,5.330166,0,Chelsea,DF
+Toti Gomes,2.563111,3.7109573,0,Wolves,DF
+Trent Alexander-Arnold,0.49207345,5.723126,0,Liverpool,DF
+Trevoh Chalobah,4.7982025,6.8341165,1,Crystal Palace,DF
+Tyler Adams,2.5066829,4.7998366,0,Bournemouth,MF
+Tyler Dibling,1.3045207,6.897742,2,Southampton,"FW,MF"
+Tyler Fredricson,6.9868054,9.171989,1,Manchester Utd,DF
+Tyrell Malacia,6.3899355,8.052289,1,Manchester Utd,DF
+Tyrick Mitchell,0.96805286,4.8727694,0,Crystal Palace,DF
+Tyrique George,4.0092397,9.201527,1,Chelsea,FW
+Tyrone Mings,5.1867437,5.8931217,1,Aston Villa,DF
+Valentino Livramento,1.2510551,4.960219,0,Newcastle Utd,DF
+Victor Bernth Kristiansen,1.3998615,4.899724,0,Leicester City,DF
+Victor Lindelöf,5.8218465,6.259179,1,Manchester Utd,DF
+Virgil van Dijk,2.6865833,4.051462,0,Liverpool,DF
+Vitaliy Mykolenko,1.4184287,4.9321504,0,Everton,DF
+Vitaly Janelt,2.616532,5.2696986,0,Brentford,MF
+Vitezslav Jaros,7.4780006,8.296387,1,Liverpool,GK
+Vitor Reis,7.9842243,8.597255,1,Manchester City,DF
+Vladimír Coufal,5.340365,5.7551107,1,West Ham,DF
+Wataru Endo,6.1414065,6.212805,1,Liverpool,"MF,DF"
+Welington,6.447874,7.8509574,1,Southampton,DF
+Wes Burns,4.653642,8.420883,1,Ipswich Town,"FW,DF"
+Wesley Fofana,4.9480777,5.821265,1,Chelsea,DF
+Wilfred Ndidi,2.207486,5.114122,0,Leicester City,MF
+Will Alves,7.541726,9.321828,1,Leicester City,FW
+Will Hughes,1.6314522,5.8279524,0,Crystal Palace,MF
+Will Lankshear,7.6435347,8.827939,1,Tottenham,"FW,MF"
+William Osula,3.9628637,9.2812395,1,Newcastle Utd,FW
+William Saliba,2.6724768,3.4773316,0,Arsenal,DF
+William Smallbone,4.084963,6.5241423,1,Southampton,MF
+Willian,6.062669,6.83786,1,Fulham,"FW,MF"
+Willy Boly,6.3629885,6.095343,1,Nott'ham Forest,DF
+Wilson Odobert,3.6006384,7.6526546,1,Tottenham,"FW,MF"
+Wout Faes,2.9500213,3.5893056,0,Leicester City,DF
+Woyo Coulibaly,6.444962,8.883386,1,Leicester City,DF
+Yankuba Minteh,0.37138328,7.764608,2,Brighton,"FW,MF"
+Yasin Ayari,1.6033998,6.1637893,0,Brighton,MF
+Yehor Yarmoliuk,3.0526984,6.2778974,0,Brentford,MF
+Yerson Mosquera,6.2778716,7.7335916,1,Wolves,DF
+Yoane Wissa,0.7522569,8.760432,2,Brentford,FW
+Youri Tielemans,0.4500662,5.9088335,0,Aston Villa,MF
+Youssef Chermiti,6.8533335,9.654556,1,Everton,"FW,MF"
+Yukinari Sugawara,3.6029627,6.32334,0,Southampton,"DF,MF"
+Yunus Emre Konak,6.998736,9.232256,1,Brentford,"FW,MF"
+Yves Bissouma,2.6860378,4.8524055,0,Tottenham,MF
+Zain Silcott-Duberry,7.7559667,8.529018,1,Bournemouth,FW
+Álex Moreno,4.689057,6.0797076,1,Nott'ham Forest,"DF,MF"
+İlkay Gündoğan,0.80794895,6.372471,0,Manchester City,MF
+Łukasz Fabiański,8.04056,6.5676184,1,West Ham,GK

@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 1. Lead Agent (Planner) — "Master Task Decomposer"
+## 1. Lead Agent (Planner) — "Master Task Decomposer"
 
 **Filename:** `lead_agent_prompt.txt`
 
@@ -51,7 +51,7 @@ Example output:
 
 ---
 
-## 🧑‍💻 2. Subagent (Worker) — "Scoped Task Specialist"
+## 2. Subagent (Worker) — "Scoped Task Specialist"
 
 **Filename:** `subagent_template_prompt.txt`
 
@@ -90,7 +90,7 @@ I will populate this template for each task with the relevant fields from the pl
 
 ---
 
-## 🖊️ 3. Synthesizer Agent — "Lead Researcher: Merge & Decide"
+## 3. Synthesizer Agent — "Lead Researcher: Merge & Decide"
 
 **Filename:** `synthesizer_prompt.txt`
 
@@ -119,7 +119,7 @@ If any subagent marked a gap, mention that the issue is unresolved.
 
 ---
 
-## 🔢 4. Citation Agent — "Verifier & Source Tracker"
+## 4. Citation Agent — "Verifier & Source Tracker"
 
 **Filename:** `citation_agent_prompt.txt`
 

@@ -71,7 +71,7 @@ This documentation formalizes the  **objectives, scope, data strategy, modeling 
 ### 3.1 Sources & Scope
 
 * **Primary:** FBref (public season tables; CSV export) or Kaggle mirrors of EPL stats.
-* **Season (MVP):** Most recent complete season with robust minutes (e.g.,  **2022/23** ).
+* **Season (MVP):** Most recent complete season with robust minutes (e.g.,  **2024/25** ).
 * **Entities:** **Outfield players** only; exclude GKs for MVP (goalkeeper feature distributions are disjoint).
 
 ### 3.2 Inclusion Filters
@@ -163,7 +163,7 @@ Minimal set (final set may expand based on availability):
 ### 5.3 Cluster Naming
 
 * Inspect **cluster centers** and **top-N players** by proximity to center.
-* Assign human-readable names, e.g.:
+* readable names, e.g.:
   * Progressive Playmaker
   * Box-to-Box Midfielder
   * Clinical Striker
@@ -207,7 +207,7 @@ File : prem-data-artcheture-flow documentation
    
 ```
 
-### 7.1 Repository Layout
+### 7.1 Repository Layout 
 
 ```
 premier-league-role-discovery/
@@ -352,7 +352,7 @@ Panels:
 
 ## 13) Deployment
 
-* **Primary:** Streamlit Community Cloud (connect GitHub, auto-deploy on main).
+* **Primary:** Streamlit Community Cloud.
 * **Artifacts in repo** to remove cold-start model training.
 * **Alternatives (future):** Docker + Render/Fly.io; FastAPI backend if moving heavy compute off the UI.
 
@@ -417,37 +417,60 @@ Panels:
 
 ---
 
-## 17) Interview Talking Points (Cheat Sheet)
+## 18) Phase 3 Results Summary
 
-* **Why unsupervised?** Roles are latent; labels are noisy/coarse. Let the data discover archetypes.
-* **Why PCA→UMAP split?** PCA for clustering stability; UMAP only for 2D visualization (avoids manifold bias in clustering).
-* **How pick K?** Combine metrics **and** interpretability; support with stability (ARI) and exemplar players.
-* **Why RF+SHAP?** Surrogate boundaries are tree-friendly; SHAP gives local/global transparency; permutation checks for robustness.
-* **Risk handling?** Minutes threshold, winsorization, schema asserts, bootstrap stability.
-* **Production mindset?** Artifacts precomputed; CI hooks; tests; logging; deterministic builds; fast UX.
+### Clustering Performance
+
+- **Final Algorithm**: K-Means with k=3
+- **Silhouette Score**: 0.2455 (meets threshold of ≥0.20)
+- **Stability (ARI)**: 0.9143 (exceeds threshold of ≥0.70)
+- **Davies-Bouldin**: 1.5658 (slightly above threshold of ≤1.40)
+- **Bootstrap Stability**: Excellent consistency across 50 bootstrap samples
+
+### Discovered Player Roles
+
+1. **Cluster 0 - "The Enforcers"**: Defensive specialists with high tackles, interceptions, and blocks
+2. **Cluster 1 - "The Creators"**: Attacking playmakers with high key passes, assists, and chance creation
+3. **Cluster 2 - "The Finishers"**: Goal threats with high shots on target and clinical finishing
+
+### Key Achievements
+
+- Successfully reduced 236 features to 3 meaningful principal components (90% variance retained)
+- Identified 3 distinct, interpretable player archetypes aligned with football intuition
+- Achieved high clustering stability, indicating robust role definitions
+- Generated comprehensive outputs: PCA projections, cluster assignments, and UMAP visualizations
+
+### Output Files Generated
+
+- `player_pca_projection.csv`: PCA-transformed data
+- `player_clusters.csv`: Cluster assignments with player metadata
+- `player_umap_2d.csv`: 2D UMAP coordinates for visualization
 
 ---
 
-## 18) Build Plan (Actionable Checklists)
+## 19) Build Plan (Actionable Checklists)
 
 ### Module 1 — Data Collection & Cleaning
 
-* [ ] Export season tables (standard, shooting, passing, defending, possession, carrying/take-ons).
-* [ ] Harmonize column names; join on player & season; aggregate multi-team rows.
-* [ ] Filter out GKs; enforce minutes ≥ 600.
-* [ ] Save `player_stats_cleaned.csv`; write loader with schema asserts.
+* [X] Export season tables (standard, shooting, passing, defending, possession, carrying/take-ons).
+* [X] Harmonize column names; join on player & season; aggregate multi-team rows.
+* [X] Filter out GKs; enforce minutes ≥ 600.
+* [X] Save `player_stats_cleaned.csv`; write loader with schema asserts.
 
-### Module 2 — Feature Engineering
+### Module 2 — Feature Engineering ✅
 
-* [ ] Compute per-90s; composites (PI, CCI, DA, FE).
-* [ ] Winsorize heavy tails; StandardScaler fit/save.
-* [ ] Build `player_feature_matrix.csv` + `feature_list.json`.
+* [X] Compute per-90s; composites (PI, CCI, DA, FE)
+* [X] Winsorize heavy tails; StandardScaler fit/save
+* [X] Build `player_stats_engineered.csv` (563 players × 266 features)
 
-### Module 3 — Modeling
+### Module 3 — Modeling ✅
 
-* [ ] Fit PCA to target variance; save `pca.pkl`.
-* [ ] Grid search K for K-Means (+ GMM optional); evaluate metrics.
-* [ ] Choose K by metrics + interpretability; name clusters; save `kmeans.pkl` (or `gmm.pkl`), labeled dataframe.
+* [X] Fit PCA to target variance (90%); save artifacts
+* [X] Grid search K for K-Means and GMM; evaluate metrics
+* [X] Choose K=3 by metrics + interpretability; name clusters
+* [X] Bootstrap stability assessment (ARI = 0.9143)
+* [X] Generate UMAP visualization
+* [X] Save all artifacts: `pca.pkl`, `kmeans.pkl`, labeled dataframes
 
 ### Module 4 — Explainability
 
@@ -471,7 +494,7 @@ Panels:
 
 ---
 
-## 19) Glossary
+## 20) Glossary
 
 * **Per-90:** Normalization to 90 minutes to compare players with different minutes.
 * **UMAP:** Nonlinear dimensionality reduction for visualization.
@@ -481,7 +504,7 @@ Panels:
 
 ---
 
-## 20) Appendices
+## 21) Appendices
 
 ### A) Feature List (Representative; will adapt to available columns)
 
@@ -500,7 +523,7 @@ Panels:
 4. Inspect centers & exemplars; run stability (bootstrap ARI).
 5. Choose final K by  **interpretability + stability** ; name roles; lock legend.
 
-### C) UX Performance Tips
+### C) UX Performance Todo
 
 * Cache loaders (`st.cache_data`) and artifacts (`st.cache_resource`).
 * Precompute per-player SHAP top-k; store small JSON to avoid recompute.

@@ -1,4 +1,3 @@
-
 **Premier League Player Role Discovery: Multi-Agent Research Execution Plan**
 
 **Author:** Mouhamed Mbengue
@@ -7,15 +6,13 @@
 
 ---
 
-## 📊 Overview
+## Overview
 
 In this phase of my project, I will be executing a **multi-agent research workflow** to finalize the foundational research for my Premier League Player Role Discovery platform. This includes verifying statistical definitions, clustering configurations, explainability frameworks, and UX/UI design patterns.
 
 Rather than running queries manually through the ChatGPT interface, I will  **leverage the OpenAI API to run multiple subagent prompts in parallel** . This will significantly reduce time-to-insight and give me high-confidence decisions before I begin writing code for my ML pipelines and Streamlit app.
 
----
-
-## ✅ Objectives
+## Objectives
 
 * Break down key research areas into scoped prompts.
 * Run them as **parallel API calls** (subagents).
@@ -24,7 +21,7 @@ Rather than running queries manually through the ChatGPT interface, I will  **le
 
 ---
 
-## 🚀 How I Will Do This (Step-by-Step)
+## How I Will Do This (Step-by-Step)
 
 ### 1. **Define the Master Planner Prompt**
 
@@ -94,7 +91,7 @@ I will prompt a separate agent to:
 
 ---
 
-## 🚧 Tools & Stack
+## Tools & Stack
 
 * **Language Model:** OpenAI GPT-4o (primary), GPT-4o-mini (secondary)
 * **Python Libraries:** `openai`, `concurrent.futures`, `os`, `dotenv`
@@ -103,7 +100,7 @@ I will prompt a separate agent to:
 
 ---
 
-## 📆 Timeline
+## Timeline
 
 | Day | Task                                                      |
 | --- | --------------------------------------------------------- |
@@ -114,7 +111,7 @@ I will prompt a separate agent to:
 
 ---
 
-## 🚀 Benefits
+## Benefits
 
 * Saves me **dozens of hours** vs manual Googling
 * Produces a **repeatable system** I can reuse for future research projects
@@ -123,7 +120,7 @@ I will prompt a separate agent to:
 
 ---
 
-## 🛠️ Next Step
+## Next Step
 
 Begin by finalizing the  **Lead Planner Prompt** , then running it through GPT-4o to generate the first set of subagent tasks.
 

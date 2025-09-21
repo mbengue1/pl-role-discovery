@@ -1,13 +1,18 @@
-
-
-# 📊 Premier League Player Role Discovery
+# Premier League Player Role Discovery
 
 **Unsupervised Machine Learning + Interactive Visualization**
 
-## 🔎 Overview
+## Overview
 
 This project applies **unsupervised machine learning** to **Premier League player statistics** to discover **data-driven player roles**.
-Instead of relying on traditional position labels (DEF, MID, FWD), the model clusters players into **functional roles**—such as “Progressive Playmaker,” “Box-to-Box Midfielder,” “Clinical Striker,” or “Pressing Defender”—based on advanced match statistics.
+Instead of relying on traditional position labels (DEF, MID, FWD), the model clusters players into **functional roles**—such as "The Enforcers," "The Creators," and "The Finishers"—based on advanced match statistics.
+
+## Current Status
+
+✅ **Phase 1**: Multi-agent research completed
+✅ **Phase 2**: Data cleaning and feature engineering completed
+✅ **Phase 3**: PCA & clustering completed
+🚧 **Phase 4**: Explainability and Streamlit app (in progress)
 
 The final output is an **interactive Streamlit web app** that allows users to:
 
@@ -18,8 +23,6 @@ The final output is an **interactive Streamlit web app** that allows users to:
 * Understand which features drive role assignment using **explainability tools (SHAP/Permutation Importance)**
 
 ---
-
-
 
 ## ⚙️ Features
 
@@ -43,17 +46,21 @@ premier-league-role-discovery/
   │   │   ├── 2_Cluster Explorer.py
   │   │   └── 3_Methodology & FAQ.py
   ├── data/
-  │   ├── raw/                 # original CSVs
-  │   └── processed/           # cleaned feature matrix, model outputs
+  │   ├── raw/                 # FBref exports
+  │   └── processed/         
+  │       ├── player_stats_engineered.csv  ✅
+  │       ├── player_pca_projection.csv    ✅
+  │       ├── player_clusters.csv          ✅
+  │       └── player_umap_2d.csv          ✅
   ├── models/
   │   ├── kmeans.pkl
   │   ├── pca.pkl
   │   └── role_classifier.pkl
   ├── notebooks/
   │   ├── 01_data_cleaning.ipynb
-  │   ├── 02_feature_engineering.ipynb
-  │   ├── 03_model_selection.ipynb
-  │   └── 04_visualization.ipynb
+  │   ├── 02_feature_engineering.ipynb    ✅
+  │   ├── 03_pca_clustering.ipynb         ✅
+  │   └── 04_explainability.ipynb         🚧
   ├── planning/                # Research and planning documents
   │   ├── documentation.md
   │   ├── multi-agent-plan.md
@@ -83,16 +90,17 @@ premier-league-role-discovery/
 
 ---
 
-## 📊 Methodology
+## Methodology
 
 ### Research Phase
 
 1. **Multi-Agent Research**
+
    * Parallel execution of research tasks using OpenAI API
    * Synthesis of findings into design decisions
    * Citation verification and validation
-
 2. **Design Decisions**
+
    * Feature definitions and formulas documented
    * Clustering approach and evaluation metrics established
    * Explainability framework defined
@@ -100,28 +108,33 @@ premier-league-role-discovery/
 
 ### Implementation Phase
 
-1. **Data Collection**
-   * Source: Kaggle Premier League stats datasets (or FBref exports)
-   * Focus: Outfield players, ≥600 minutes played
+1. **Data Collection** ✅
 
-2. **Feature Engineering**
+   * Source: FBref exports (2023/24 and 2024/25 seasons)
+   * Focus: Outfield players, ≥600 minutes played
+   * Final dataset: 563 players × 266 features
+2. **Feature Engineering** ✅
+
    * Per-90 scaling for rate stats
    * Composite indices (PI, CCI, DA, FE)
    * Winsorization at 5th and 95th percentiles
+   * Output: `player_stats_engineered.csv`
+3. **Dimensionality Reduction** ✅
 
-3. **Dimensionality Reduction**
-   * PCA → retain 90% variance
-   * UMAP → visualization layer only
+   * PCA → retained 90% variance (3 components)
+   * UMAP → 2D visualization layer
+   * Output: `player_pca_projection.csv`
+4. **Clustering** ✅
 
-4. **Clustering**
-   * K-Means & Gaussian Mixture Models
-   * Metrics: Silhouette Score (≥0.20), Davies–Bouldin (≤1.40), ARI (≥0.70)
-   * Bootstrap sampling for stability assessment
+   * K-Means selected (silhouette: 0.2455, stability ARI: 0.9143)
+   * 3 distinct player roles identified
+   * Bootstrap stability assessment completed
+   * Output: `player_clusters.csv`
+5. **Explainability** 🚧
 
-5. **Explainability**
-   * RandomForest surrogate model
-   * SHAP values for global and local explanations
-   * Permutation importance for validation
+   * RandomForest surrogate model (planned)
+   * SHAP values for global and local explanations (planned)
+   * Permutation importance for validation (planned)
 
 ---
 
@@ -155,7 +168,7 @@ premier-league-role-discovery/
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Research Pipeline
 
@@ -180,6 +193,67 @@ Run the app locally:
 streamlit run app/Home.py
 ```
 
+## Phase 3 Results
+
+### Clustering Performance
+
+- **Algorithm**: K-Means with k=3
+- **Silhouette Score**: 0.2455 (above threshold of 0.20)
+- **Stability (ARI)**: 0.9143 (excellent consistency)
+- **Davies-Bouldin**: 1.5658 (slightly above threshold)
+
+### Discovered Player Roles
+
+1. **Cluster 0**: "The Enforcers" (Defensive Specialists)
+2. **Cluster 1**: "The Creators" (Attacking Playmakers)
+3. **Cluster 2**: "The Finishers" (Goal Threats)
+
+### Key Findings
+
+- High clustering stability indicates robust role definitions
+- Three distinct player archetypes align with football intuition
+- PCA successfully reduced 236 features to 3 meaningful components
+
+## 🛠️ Setup & Installation
+
+### Prerequisites
+
+- Python 3.11+
+- Conda environment (recommended)
+
+### Installation
+
+```bash
+# Clone repository
+git clone <your-repo-url>
+cd premier-league-role-discovery
+
+# Create conda environment
+conda create -n prem-discovery python=3.11
+conda activate prem-discovery
+
+# Install dependencies
+conda install -c conda-forge umap-learn plotly seaborn scikit-learn pandas numpy matplotlib
+
+# Or use the provided environment file
+conda env create -f environment.yml
+```
+
+### Quick Start
+
+```bash
+# Run the complete pipeline
+jupyter notebook notebooks/03_pca_clustering.ipynb
+
+# View results
+ls data/processed/
+```
+
+## 📈 Next Steps
+
+- **Phase 4**: Implement explainability (SHAP, permutation importance)
+- **Phase 5**: Build Streamlit application
+- **Phase 6**: Deploy to Streamlit Cloud
 
 ## 📈 Future Improvements
 

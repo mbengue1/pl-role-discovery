@@ -298,7 +298,7 @@ def main():
     
     args = parser.parse_args()
     
-    # Check if the API key is set (either OPENAI_API_KEY or OPEN_API_KEY)
+    # Check if the API key is set
     if not (os.environ.get("OPENAI_API_KEY") or os.environ.get("OPEN_API_KEY")) and not args.dry_run:
         logger.error("API key environment variable not set. Please set OPEN_API_KEY in your .env file")
         sys.exit(1)

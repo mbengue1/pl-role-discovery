@@ -1,0 +1,564 @@
+player,cluster,team,position
+Aaron Cresswell,1,West Ham,DF
+Aaron Ramsdale,0,Southampton,GK
+Aaron Wan-Bissaka,0,West Ham,DF
+Abdoulaye Doucouré,0,Everton,MF
+Abdukodir Khusanov,1,Manchester City,DF
+Abdul Fatawu Issahaku,1,Leicester City,FW
+Adam Armstrong,1,Southampton,"FW,MF"
+Adam Lallana,1,Southampton,MF
+Adam Smith,1,Bournemouth,DF
+Adam Webster,1,Brighton,DF
+Adam Wharton,0,Crystal Palace,MF
+Adama Traoré,2,Fulham,"FW,MF"
+Albert Grønbaek,1,Southampton,"FW,MF"
+Alejandro Garnacho,2,Manchester Utd,"MF,FW"
+Alex Iwobi,2,Fulham,"FW,MF"
+Alex McCarthy,1,Southampton,GK
+Alex Palmer,1,Ipswich Town,GK
+Alex Scott,1,Bournemouth,MF
+Alexander Isak,2,Newcastle Utd,FW
+Alexis Mac Allister,0,Liverpool,MF
+Alfie Dorrington,1,Tottenham,DF
+Alfie Pond,1,Wolves,DF
+Ali Al Hamadi,1,Ipswich Town,FW
+Alisson,0,Liverpool,GK
+Alphonse Areola,1,West Ham,GK
+Altay Bayındır,1,Manchester Utd,GK
+Amad Diallo,2,Manchester Utd,"MF,FW"
+Amadou Onana,0,Aston Villa,MF
+Andreas Pereira,2,Fulham,MF
+Andrew Robertson,0,Liverpool,DF
+André,0,Wolves,MF
+André Onana,0,Manchester Utd,GK
+Andrés García,1,Aston Villa,"DF,MF"
+Andy Irving,1,West Ham,MF
+Anthony Elanga,2,Nott'ham Forest,"FW,MF"
+Anthony Gordon,2,Newcastle Utd,"FW,MF"
+Antoine Semenyo,2,Bournemouth,FW
+Antonee Robinson,0,Fulham,DF
+Antony,1,Manchester Utd,"DF,MF"
+Antonín Kinský,1,Tottenham,GK
+Archie Gray,0,Tottenham,"DF,MF"
+Arijanet Muric,1,Ipswich Town,GK
+Armando Broja,1,Everton,FW
+Armel Bella Kotchap,1,Southampton,DF
+Asher Agbinone,1,Crystal Palace,MF
+Ashley Young,0,Everton,DF
+Axel Disasi,1,Aston Villa,DF
+Axel Tuanzebe,0,Ipswich Town,DF
+Ayden Heaven,1,Manchester Utd,DF
+Bart Verbruggen,0,Brighton,GK
+Ben Brereton,1,Southampton,FW
+Ben Chilwell,1,Crystal Palace,DF
+Ben Davies,0,Tottenham,DF
+Ben Godfrey,1,Ipswich Town,DF
+Ben Johnson,1,Ipswich Town,"DF,FW"
+Ben Mee,1,Brentford,DF
+Ben White,1,Arsenal,DF
+Ben Winterburn,1,Bournemouth,"MF,FW"
+Benoît Badiashile,1,Chelsea,DF
+Bernardo Silva,0,Manchester City,"MF,FW"
+Bernd Leno,0,Fulham,GK
+Beto,2,Everton,FW
+Bilal El Khannouss,0,Leicester City,"MF,FW"
+Billy Gilmour,1,Brighton,MF
+Bobby De Cordova-Reid,1,Leicester City,FW
+Boubacar Kamara,0,Aston Villa,MF
+Boubacar Traoré,1,Wolves,MF
+Boubakary Soumaré,0,Leicester City,MF
+Brajan Gruda,1,Brighton,"MF,FW"
+Brandon Austin,1,Tottenham,GK
+Brennan Johnson,2,Tottenham,FW
+Bruno Fernandes,2,Manchester Utd,MF
+Bruno Guimarães,0,Newcastle Utd,MF
+Bryan Mbeumo,2,Brentford,FW
+Bukayo Saka,2,Arsenal,"FW,MF"
+Caleb Kporha,1,Crystal Palace,DF
+Caleb Okoli,1,Leicester City,DF
+Callum Hudson-Odoi,2,Nott'ham Forest,"FW,MF"
+Callum Wilson,1,Newcastle Utd,FW
+Calvin Bassey,0,Fulham,DF
+Cameron Archer,1,Southampton,FW
+Cameron Burgess,1,Ipswich Town,DF
+Caoimhín Kelleher,1,Liverpool,GK
+Carlos Alcaraz,1,Southampton,MF
+Carlos Baleba,0,Brighton,MF
+Carlos Forbs,1,Wolves,"MF,FW"
+Carlos Soler,1,West Ham,"MF,FW"
+Carlos Vinícius,1,Fulham,"MF,FW"
+Casemiro,0,Manchester Utd,MF
+Chadi Riad,1,Crystal Palace,DF
+Charlie Taylor,1,Southampton,DF
+Cheick Doucouré,1,Crystal Palace,MF
+Chidozie Obi-Martin,1,Manchester Utd,FW
+Chiedozie Ogbene,1,Ipswich Town,FW
+Chiquinho,1,Wolves,MF
+Chris Richards,0,Crystal Palace,DF
+Chris Wood,2,Nott'ham Forest,FW
+Christian Eriksen,2,Manchester Utd,MF
+Christian Nørgaard,0,Brentford,MF
+Christian Walton,1,Ipswich Town,GK
+Christopher Nkunku,2,Chelsea,FW
+Claudio Echeverri,1,Manchester City,FW
+Cody Gakpo,2,Liverpool,FW
+Cole Palmer,2,Chelsea,"MF,FW"
+Conor Bradley,1,Liverpool,DF
+Conor Chaplin,1,Ipswich Town,"MF,FW"
+Conor Coady,0,Leicester City,DF
+Conor Townsend,1,Ipswich Town,DF
+Craig Dawson,1,Wolves,DF
+Cristian Romero,0,Tottenham,DF
+Crysencio Summerville,1,West Ham,"FW,MF"
+Curtis Jones,0,Liverpool,"MF,DF"
+Daichi Kamada,0,Crystal Palace,MF
+Dan Burn,0,Newcastle Utd,DF
+Dane Scarlett,1,Tottenham,"FW,MF"
+Dango Ouattara,2,Bournemouth,FW
+Daniel Bentley,1,Wolves,GK
+Daniel Jebbison,1,Bournemouth,FW
+Daniel Muñoz,0,Crystal Palace,DF
+Daniel Podence,1,Wolves,"MF,FW"
+Danilo,1,Nott'ham Forest,"MF,FW"
+Danny Ings,1,West Ham,"FW,MF"
+Danny Ward,1,Leicester City,GK
+Danny Welbeck,2,Brighton,FW
+Dara O'Shea,0,Ipswich Town,DF
+Darwin Núñez,2,Liverpool,FW
+David Brooks,2,Bournemouth,"FW,MF"
+David Raya,0,Arsenal,GK
+Dean Henderson,0,Crystal Palace,GK
+Dean Huijsen,0,Bournemouth,DF
+Declan Rice,0,Arsenal,MF
+Dejan Kulusevski,2,Tottenham,"MF,FW"
+Destiny Udogie,0,Tottenham,DF
+Diego Carlos,1,Aston Villa,DF
+Diego Gómez,1,Brighton,MF
+Diogo Dalot,0,Manchester Utd,DF
+Diogo Jota,2,Liverpool,FW
+Divin Mubama,1,Manchester City,FW
+Djed Spence,0,Tottenham,DF
+Dominic Calvert-Lewin,2,Everton,FW
+Dominic Solanke,2,Tottenham,FW
+Dominik Szoboszlai,2,Liverpool,MF
+Donyell Malen,1,Aston Villa,FW
+Dwight McNeil,2,Everton,"MF,FW"
+Eberechi Eze,2,Crystal Palace,"MF,FW"
+Eddie Nketiah,2,Crystal Palace,"FW,MF"
+Ederson,0,Manchester City,GK
+Edmond-Paris Maghoma,1,Brentford,"MF,FW"
+Edson Álvarez,0,West Ham,MF
+Eiran Cashin,1,Brighton,DF
+Elliot Anderson,0,Nott'ham Forest,MF
+Emerson Palmieri,0,West Ham,DF
+Emi Buendía,1,Aston Villa,"MF,FW"
+Emil Krafth,1,Newcastle Utd,DF
+Emile Smith Rowe,2,Fulham,MF
+Emiliano Martínez,0,Aston Villa,GK
+Emmanuel Agbadou,0,Wolves,DF
+Enes Ünal,1,Bournemouth,"FW,MF"
+Enzo Fernández,0,Chelsea,MF
+Eric da Silva Moreira,1,Nott'ham Forest,"MF,DF"
+Erling Haaland,2,Manchester City,FW
+Ethan Nwaneri,2,Arsenal,"FW,MF"
+Ethan Pinnock,0,Brentford,DF
+Evan Ferguson,1,West Ham,FW
+Evanilson,2,Bournemouth,FW
+Ezri Konsa,0,Aston Villa,DF
+Fabian Schär,0,Newcastle Utd,DF
+Fabio Carvalho,1,Brentford,"FW,MF"
+Facundo Buonanotte,2,Leicester City,"FW,MF"
+Federico Chiesa,1,Liverpool,FW
+Ferdi Kadioglu,1,Brighton,"DF,MF"
+Filip Jørgensen,1,Chelsea,GK
+Flynn Downes,0,Southampton,MF
+Frank Onyeka,1,Brentford,MF
+Fraser Forster,1,Tottenham,GK
+Gabriel Jesus,1,Arsenal,FW
+Gabriel Magalhães,0,Arsenal,DF
+Gabriel Martinelli,2,Arsenal,"FW,MF"
+George Edmundson,1,Ipswich Town,DF
+George Hirst,1,Ipswich Town,FW
+Georginio Rutter,2,Brighton,"MF,FW"
+Gonçalo Guedes,2,Wolves,"MF,FW"
+Guglielmo Vicario,1,Tottenham,GK
+Guido Rodríguez,1,West Ham,MF
+Gustavo Nunes,1,Brentford,"FW,MF"
+Hamza Choudhury,1,Leicester City,"MF,DF"
+Harrison Armstrong,1,Everton,MF
+Harrison Reed,1,Fulham,MF
+Harry Amass,1,Manchester Utd,DF
+Harry Clarke,1,Ipswich Town,DF
+Harry Howell,1,Brighton,FW
+Harry Maguire,0,Manchester Utd,DF
+Harry Toffolo,1,Nott'ham Forest,DF
+Harry Wilson,2,Fulham,"FW,MF"
+Harry Winks,0,Leicester City,MF
+Harvey Barnes,2,Newcastle Utd,FW
+Harvey Elliott,1,Liverpool,MF
+Hwang Hee-chan,1,Wolves,"MF,FW"
+Hákon Valdimarsson,1,Brentford,GK
+Ian Maatsen,2,Aston Villa,DF
+Ibrahim Sangaré,1,Nott'ham Forest,MF
+Ibrahima Konaté,0,Liverpool,DF
+Idrissa Gana Gueye,0,Everton,MF
+Igor,1,Brighton,DF
+Iliman Ndiaye,2,Everton,FW
+Illia Zabarnyi,0,Bournemouth,DF
+Ismaila Sarr,2,Crystal Palace,MF
+Issa Diop,1,Fulham,DF
+Jack Clarke,1,Ipswich Town,"FW,MF"
+Jack Grealish,1,Manchester City,"FW,MF"
+Jack Harrison,2,Everton,FW
+Jack Hinshelwood,0,Brighton,"MF,DF"
+Jack Stephens,0,Southampton,DF
+Jack Taylor,1,Ipswich Town,MF
+Jacob Greaves,0,Ipswich Town,DF
+Jacob Murphy,2,Newcastle Utd,FW
+Jacob Ramsey,2,Aston Villa,"FW,MF"
+Jaden Philogene Bidace,1,Aston Villa,"FW,MF"
+Jadon Sancho,2,Chelsea,FW
+Jahmai Simpson-Pusey,1,Manchester City,DF
+Jake Evans,1,Leicester City,FW
+Jake O'Brien,1,Everton,DF
+Jakub Kiwior,1,Arsenal,DF
+Jakub Moder,1,Brighton,MF
+Jakub Stolarczyk,1,Leicester City,GK
+James Bree,1,Southampton,DF
+James Garner,0,Everton,"MF,DF"
+James Hill,1,Bournemouth,DF
+James Justin,0,Leicester City,DF
+James Maddison,2,Tottenham,MF
+James Mcatee,1,Manchester City,"MF,FW"
+James Milner,1,Brighton,MF
+James Tarkowski,0,Everton,DF
+James Ward-Prowse,1,West Ham,MF
+Jamie Vardy,2,Leicester City,FW
+Jan Bednarek,0,Southampton,DF
+Jan Paul van Hecke,0,Brighton,DF
+Jannik Vestergaard,1,Leicester City,DF
+Jarell Quansah,1,Liverpool,DF
+Jarrad Branthwaite,0,Everton,DF
+Jarrod Bowen,2,West Ham,"FW,MF"
+Jason Steele,1,Brighton,GK
+Jay Robinson,1,Southampton,"MF,FW"
+Jay Stansfield,1,Fulham,MF
+Jayden Danns,1,Liverpool,MF
+Jayden Meghoma,1,Brentford,DF
+Jean-Clair Todibo,0,West Ham,DF
+Jean-Philippe Mateta,2,Crystal Palace,FW
+Jean-Ricner Bellegarde,2,Wolves,"MF,FW"
+Jefferson Lerma,0,Crystal Palace,"MF,DF"
+Jeffrey Schlupp,1,Crystal Palace,"MF,DF"
+Jens Cajuste,0,Ipswich Town,MF
+Jeremy Doku,2,Manchester City,"FW,MF"
+Jeremy Monga,1,Leicester City,"FW,MF"
+Jeremy Sarmiento,1,Brighton,MF
+Jesper Lindstrøm,2,Everton,FW
+Joachim Andersen,1,Crystal Palace,DF
+Joachim Kayi Sanda,1,Southampton,DF
+Joe Aribo,0,Southampton,"MF,DF"
+Joe Gomez,1,Liverpool,DF
+Joe Lumley,1,Southampton,GK
+Joe Willock,1,Newcastle Utd,"MF,FW"
+Joel Ward,1,Crystal Palace,DF
+Joelinton,0,Newcastle Utd,"MF,FW"
+John McGinn,0,Aston Villa,"MF,FW"
+John Stones,1,Manchester City,"DF,MF"
+Jonny Evans,1,Manchester Utd,DF
+Jordan Ayew,1,Crystal Palace,"FW,MF"
+Jordan Pickford,0,Everton,GK
+Jorge Cuenca,1,Fulham,DF
+Jorginho,1,Arsenal,MF
+Joshua Acheampong,1,Chelsea,DF
+Joshua King,1,Fulham,MF
+Joshua Zirkzee,2,Manchester Utd,"FW,MF"
+José Sá,0,Wolves,GK
+Jota Silva,2,Nott'ham Forest,"FW,MF"
+João Félix,1,Chelsea,"FW,MF"
+João Gomes,0,Wolves,MF
+João Pedro,2,Brighton,"FW,MF"
+Joël Veltman,0,Brighton,DF
+Joško Gvardiol,0,Manchester City,DF
+Julian Araujo,1,Bournemouth,DF
+Julio Enciso,2,Ipswich Town,"MF,FW"
+Julio Soler,1,Bournemouth,"DF,FW"
+Jurriën Timber,0,Arsenal,DF
+Justin Devenny,1,Crystal Palace,MF
+Justin Kluivert,2,Bournemouth,MF
+Jáder Durán,2,Aston Villa,FW
+Jørgen Strand Larsen,2,Wolves,FW
+Kaelan Casey,1,West Ham,DF
+Kai Havertz,2,Arsenal,"FW,MF"
+Kalvin Phillips,1,Ipswich Town,MF
+Kamaldeen Sulemana,2,Southampton,"FW,MF"
+Kaoru Mitoma,2,Brighton,"FW,MF"
+Kasey McAteer,1,Leicester City,FW
+Keane Lewis-Potter,0,Brentford,"DF,FW"
+Kenny Tete,0,Fulham,DF
+Kepa Arrizabalaga,0,Bournemouth,GK
+Kevin Danso,1,Tottenham,DF
+Kevin De Bruyne,2,Manchester City,"MF,FW"
+Kevin Schade,2,Brentford,FW
+Kieran Tierney,1,Arsenal,"DF,FW"
+Kieran Trippier,0,Newcastle Utd,DF
+Kiernan Dewsbury-Hall,1,Chelsea,"MF,FW"
+Kim Jisoo,1,Brentford,DF
+Kobbie Mainoo,0,Manchester Utd,MF
+Konstantinos Mavropanos,0,West Ham,DF
+Kosta Nedeljković,1,Aston Villa,DF
+Kostas Tsimikas,1,Liverpool,DF
+Kristoffer Ajer,1,Brentford,DF
+Kyle Walker,1,Manchester City,DF
+Kyle Walker-Peters,0,Southampton,DF
+Lamare Bogarde,1,Aston Villa,"DF,MF"
+Leandro Trossard,2,Arsenal,FW
+Leif Davis,0,Ipswich Town,DF
+Leny Yoro,1,Manchester Utd,DF
+Leon Bailey,2,Aston Villa,"FW,MF"
+Lesley Ugochukwu,0,Southampton,MF
+Levi Colwill,0,Chelsea,DF
+Lewis Cook,0,Bournemouth,"MF,DF"
+Lewis Dunk,0,Brighton,DF
+Lewis Hall,0,Newcastle Utd,DF
+Lewis Miley,1,Newcastle Utd,MF
+Lewis Orford,1,West Ham,MF
+Liam Delap,2,Ipswich Town,FW
+Lisandro Martínez,0,Manchester Utd,DF
+Lloyd Kelly,1,Newcastle Utd,DF
+Lucas Bergvall,1,Tottenham,MF
+Lucas Digne,0,Aston Villa,DF
+Lucas Paquetá,0,West Ham,"MF,FW"
+Luis Díaz,2,Liverpool,FW
+Luis Guilherme,1,West Ham,"MF,FW"
+Luis Sinisterra,1,Bournemouth,"FW,MF"
+Luke Shaw,1,Manchester Utd,DF
+Luke Thomas,1,Leicester City,DF
+Luke Woolfenden,1,Ipswich Town,DF
+Mads Hermansen,1,Leicester City,GK
+Mads Roerslev,1,Brentford,DF
+Malo Gusto,0,Chelsea,DF
+Manuel Akanji,0,Manchester City,DF
+Manuel Ugarte,0,Manchester Utd,MF
+Marc Cucurella,0,Chelsea,DF
+Marc Guiu,1,Chelsea,FW
+Marc Guéhi,0,Crystal Palace,DF
+Marco Asensio,2,Aston Villa,MF
+Marcos Senesi,1,Bournemouth,DF
+Marcus Harness,1,Ipswich Town,MF
+Marcus Rashford,2,Manchester Utd,"FW,MF"
+Marcus Tavernier,2,Bournemouth,"FW,MF"
+Mario Lemina,0,Wolves,"MF,DF"
+Mark Flekken,0,Brentford,GK
+Mark Travers,1,Bournemouth,GK
+Marshall Munetsi,1,Wolves,"MF,FW"
+Martial Godo,1,Fulham,"FW,DF"
+Martin Dúbravka,1,Newcastle Utd,GK
+Martin Ødegaard,2,Arsenal,MF
+Mason Holgate,1,Everton,"FW,DF"
+Mason Mount,1,Manchester Utd,MF
+Massimo Luongo,1,Ipswich Town,MF
+Mateo Kovačić,0,Manchester City,MF
+Mateus Fernandes,0,Southampton,MF
+Mateus Mane,1,Wolves,MF
+Matheus Cunha,2,Wolves,"MF,FW"
+Matheus França,1,Crystal Palace,"MF,FW"
+Matheus Nunes,0,Manchester City,"DF,MF"
+Mathias Jensen,1,Brentford,MF
+Mathis Amougou,1,Chelsea,MF
+Mathys Tel,2,Tottenham,FW
+Mats Wieffer,0,Brighton,"DF,MF"
+Matt Doherty,0,Wolves,DF
+Matt O'Riley,2,Brighton,MF
+Matt Targett,1,Newcastle Utd,DF
+Matthijs de Ligt,0,Manchester Utd,DF
+Matty Cash,0,Aston Villa,DF
+Matz Sels,0,Nott'ham Forest,GK
+Max Aarons,1,Bournemouth,DF
+Max Kilman,0,West Ham,DF
+Maxence Lacroix,0,Crystal Palace,DF
+Maxwel Cornet,1,Southampton,FW
+Michael Golding,1,Leicester City,MF
+Michael Kayode,1,Brentford,DF
+Michael Keane,1,Everton,DF
+Michail Antonio,1,West Ham,FW
+Micky van de Ven,1,Tottenham,DF
+Miguel Almirón,1,Newcastle Utd,FW
+Mikel Merino,2,Arsenal,"MF,FW"
+Mikey Moore,1,Tottenham,FW
+Mikkel Damsgaard,0,Brentford,"MF,FW"
+Milos Kerkez,0,Bournemouth,DF
+Mohamed Salah,2,Liverpool,FW
+Mohammed Kudus,2,West Ham,"FW,MF"
+Moisés Caicedo,0,Chelsea,"MF,DF"
+Morato,1,Nott'ham Forest,DF
+Morgan Gibbs-White,2,Nott'ham Forest,MF
+Morgan Rogers,2,Aston Villa,"FW,MF"
+Murillo,0,Nott'ham Forest,DF
+Mykhailo Mudryk,1,Chelsea,FW
+Myles Lewis-Skelly,1,Arsenal,DF
+Nasser Djiga,1,Wolves,DF
+Nathan Aké,1,Manchester City,DF
+Nathan Broadhead,1,Ipswich Town,"MF,FW"
+Nathan Butler-Oyedeji,1,Arsenal,FW
+Nathan Collins,0,Brentford,DF
+Nathan Patterson,1,Everton,DF
+Nathan Wood-Gordon,1,Southampton,DF
+Nathaniel Clyne,1,Crystal Palace,"DF,MF"
+Neco Williams,0,Nott'ham Forest,DF
+Neto,1,Bournemouth,GK
+Nick Pope,1,Newcastle Utd,GK
+Niclas Füllkrug,1,West Ham,FW
+Nico O’Reilly,1,Manchester City,DF
+Nicolas Jackson,2,Chelsea,FW
+Nicolás Domínguez,0,Nott'ham Forest,"MF,FW"
+Nicolás González,1,Manchester City,MF
+Nikola Milenković,0,Nott'ham Forest,DF
+Noni Madueke,2,Chelsea,FW
+Noussair Mazraoui,0,Manchester Utd,DF
+Nélson Semedo,0,Wolves,DF
+Odsonne Édouard,1,Crystal Palace,"MF,FW"
+Ola Aina,0,Nott'ham Forest,DF
+Olabade Aluko,1,Leicester City,DF
+Oleksandr Zinchenko,1,Arsenal,"DF,MF"
+Oliver Scarles,1,West Ham,"DF,FW"
+Oliver Skipp,1,Leicester City,MF
+Ollie Watkins,2,Aston Villa,FW
+Omar Marmoush,2,Manchester City,"FW,MF"
+Omari Hutchinson,2,Ipswich Town,"MF,FW"
+Orel Mangala,1,Everton,MF
+Oscar Bobb,1,Manchester City,FW
+Pablo Sarabia,2,Wolves,"MF,FW"
+Pape Matar Sarr,0,Tottenham,MF
+Patrick Dorgu,1,Manchester Utd,DF
+Patson Daka,1,Leicester City,"FW,MF"
+Pau Torres,0,Aston Villa,DF
+Paul Onuachu,1,Southampton,FW
+Pedro Lima,1,Wolves,DF
+Pedro Neto,2,Chelsea,FW
+Pedro Porro,0,Tottenham,DF
+Pervis Estupiñán,0,Brighton,DF
+Phil Foden,2,Manchester City,"MF,FW"
+Philip Billing,1,Bournemouth,MF
+Player,2,Squad,Pos
+Radu Drăgușin,1,Tottenham,DF
+Raheem Sterling,1,Arsenal,"FW,MF"
+Ramón Sosa,1,Nott'ham Forest,"FW,MF"
+Rasmus Højlund,2,Manchester Utd,FW
+Rayan Aït-Nouri,0,Wolves,DF
+Raúl Jiménez,2,Fulham,FW
+Reece James,1,Chelsea,"DF,MF"
+Reiss Nelson,1,Arsenal,FW
+Remy Rees-Dottin,1,Bournemouth,FW
+Renato Veiga,1,Chelsea,"DF,MF"
+Ricardo Pereira,1,Leicester City,DF
+Riccardo Calafiori,1,Arsenal,DF
+Richarlison,1,Tottenham,FW
+Rico Henry,1,Brentford,DF
+Rico Lewis,0,Manchester City,"DF,MF"
+Robert Sánchez,0,Chelsea,GK
+Robin Olsen,1,Aston Villa,GK
+Rodri,1,Manchester City,MF
+Rodrigo Bentancur,0,Tottenham,MF
+Rodrigo Gomes,1,Wolves,"DF,FW"
+Rodrigo Muniz,2,Fulham,FW
+Romain Esse,1,Crystal Palace,MF
+Roman Dixon,1,Everton,DF
+Roméo Lavia,1,Chelsea,MF
+Ronnie Edwards,1,Southampton,DF
+Ross Barkley,1,Aston Villa,MF
+Ross Stewart,1,Southampton,FW
+Ryan Christie,0,Bournemouth,MF
+Ryan Fraser,1,Southampton,"FW,DF"
+Ryan Gravenberch,0,Liverpool,MF
+Ryan Manning,0,Southampton,"DF,MF"
+Ryan Sessegnon,1,Fulham,"FW,DF"
+Ryan Trevitt,1,Brentford,MF
+Ryan Yates,0,Nott'ham Forest,MF
+Rúben Dias,0,Manchester City,DF
+Sam Johnstone,1,Wolves,GK
+Sam Morsy,0,Ipswich Town,MF
+Sammie Szmodics,1,Ipswich Town,"FW,MF"
+Samuel Amo-Ameyaw,1,Southampton,"FW,DF"
+Samuel Edozie,1,Southampton,"DF,FW"
+Sander Berge,0,Fulham,MF
+Sandro Tonali,0,Newcastle Utd,MF
+Santiago Bueno,0,Wolves,DF
+Saša Lukić,0,Fulham,MF
+Scott McTominay,1,Manchester Utd,MF
+Sean Longstaff,1,Newcastle Utd,MF
+Sepp van den Berg,0,Brentford,DF
+Sergio Reguilón,1,Tottenham,DF
+Shumaira Mheuka,1,Chelsea,MF
+Simon Adingra,2,Brighton,"FW,MF"
+Solly March,1,Brighton,"FW,MF"
+Son Heung-min,2,Tottenham,FW
+Stefan Ortega,1,Manchester City,GK
+Stephy Mavididi,2,Leicester City,FW
+Sven Botman,1,Newcastle Utd,DF
+Sávio,2,Manchester City,"FW,MF"
+Séamus Coleman,1,Everton,DF
+Taiwo Awoniyi,1,Nott'ham Forest,FW
+Takehiro Tomiyasu,1,Arsenal,DF
+Tariq Lamptey,1,Brighton,DF
+Taylor Harwood-Bellis,0,Southampton,DF
+Thiago,1,Brentford,"FW,MF"
+Thomas Partey,0,Arsenal,"MF,DF"
+Tim Iroegbunam,1,Everton,MF
+Timo Werner,1,Tottenham,"FW,MF"
+Timothy Castagne,0,Fulham,DF
+Toby Collyer,1,Manchester Utd,MF
+Tom Cairney,1,Fulham,MF
+Tom King,1,Wolves,GK
+Tommy Doyle,1,Wolves,MF
+Tomáš Souček,0,West Ham,MF
+Tosin Adarabioyo,0,Chelsea,DF
+Toti Gomes,0,Wolves,DF
+Trent Alexander-Arnold,0,Liverpool,DF
+Trevoh Chalobah,1,Crystal Palace,DF
+Tyler Adams,0,Bournemouth,MF
+Tyler Dibling,2,Southampton,"FW,MF"
+Tyler Fredricson,1,Manchester Utd,DF
+Tyrell Malacia,1,Manchester Utd,DF
+Tyrick Mitchell,0,Crystal Palace,DF
+Tyrique George,1,Chelsea,FW
+Tyrone Mings,1,Aston Villa,DF
+Valentino Livramento,0,Newcastle Utd,DF
+Victor Bernth Kristiansen,0,Leicester City,DF
+Victor Lindelöf,1,Manchester Utd,DF
+Virgil van Dijk,0,Liverpool,DF
+Vitaliy Mykolenko,0,Everton,DF
+Vitaly Janelt,0,Brentford,MF
+Vitezslav Jaros,1,Liverpool,GK
+Vitor Reis,1,Manchester City,DF
+Vladimír Coufal,1,West Ham,DF
+Wataru Endo,1,Liverpool,"MF,DF"
+Welington,1,Southampton,DF
+Wes Burns,1,Ipswich Town,"FW,DF"
+Wesley Fofana,1,Chelsea,DF
+Wilfred Ndidi,0,Leicester City,MF
+Will Alves,1,Leicester City,FW
+Will Hughes,0,Crystal Palace,MF
+Will Lankshear,1,Tottenham,"FW,MF"
+William Osula,1,Newcastle Utd,FW
+William Saliba,0,Arsenal,DF
+William Smallbone,1,Southampton,MF
+Willian,1,Fulham,"FW,MF"
+Willy Boly,1,Nott'ham Forest,DF
+Wilson Odobert,1,Tottenham,"FW,MF"
+Wout Faes,0,Leicester City,DF
+Woyo Coulibaly,1,Leicester City,DF
+Yankuba Minteh,2,Brighton,"FW,MF"
+Yasin Ayari,0,Brighton,MF
+Yehor Yarmoliuk,0,Brentford,MF
+Yerson Mosquera,1,Wolves,DF
+Yoane Wissa,2,Brentford,FW
+Youri Tielemans,0,Aston Villa,MF
+Youssef Chermiti,1,Everton,"FW,MF"
+Yukinari Sugawara,0,Southampton,"DF,MF"
+Yunus Emre Konak,1,Brentford,"FW,MF"
+Yves Bissouma,0,Tottenham,MF
+Zain Silcott-Duberry,1,Bournemouth,FW
+Álex Moreno,1,Nott'ham Forest,"DF,MF"
+İlkay Gündoğan,0,Manchester City,MF
+Łukasz Fabiański,1,West Ham,GK
