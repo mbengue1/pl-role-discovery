@@ -47,7 +47,7 @@ premier-league-role-discovery/
   │   │   └── 3_Methodology & FAQ.py
   ├── data/
   │   ├── raw/                 # FBref exports
-  │   └── processed/         
+  │   └── processed/       
   │       ├── player_stats_engineered.csv  ✅
   │       ├── player_pca_projection.csv    ✅
   │       ├── player_clusters.csv          ✅
@@ -225,7 +225,7 @@ streamlit run app/Home.py
 
 ```bash
 # Clone repository
-git clone <your-repo-url>
+git clone github.com/mmbengue1/pl-role-discovery
 cd premier-league-role-discovery
 
 # Create conda environment

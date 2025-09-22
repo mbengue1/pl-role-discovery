@@ -1,0 +1,49 @@
+{
+  "models": [
+    {
+      "file": "role_classifier.pkl",
+      "description": "Random Forest surrogate model for predicting player roles"
+    }
+  ],
+  "data_files": [
+    {
+      "file": "distinctive_features.csv",
+      "description": "Top distinctive features for each cluster with z-scores"
+    },
+    {
+      "file": "permutation_importance.csv",
+      "description": "Feature importance from permutation analysis"
+    },
+    {
+      "file": "importance_comparison.csv",
+      "description": "Comparison of SHAP and permutation importance"
+    },
+    {
+      "file": "cluster_representatives.csv",
+      "description": "Representative players for each cluster"
+    },
+    {
+      "file": "cluster_metadata.json",
+      "description": "Role names, descriptions, and key attributes"
+    },
+    {
+      "file": "shap_values.pkl",
+      "description": "SHAP values for explainability"
+    }
+  ],
+  "role_names": {
+    "0": "The Enforcers",
+    "1": "The Balanced Players",
+    "2": "The Attackers"
+  },
+  "cluster_counts": {
+    "0": 166,
+    "1": 294,
+    "2": 103
+  },
+  "cluster_percentages": {
+    "0": 29.484902309058615,
+    "1": 52.2202486678508,
+    "2": 18.29484902309059
+  }
+}

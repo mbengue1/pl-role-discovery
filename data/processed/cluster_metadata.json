@@ -1,0 +1,53 @@
+{
+  "0": {
+    "name": "The Enforcers",
+    "description": "Defensive specialists who excel in tackles, interceptions, and blocks. These players are focused on breaking up opposition attacks and providing defensive stability. They also contribute with progressive passes but are less involved in attacking play.",
+    "top_features": [
+      "totdist",
+      "att2",
+      "cmp2",
+      "cmp_pass_types",
+      "cmp"
+    ],
+    "representative_players": [
+      "Vitaly Janelt",
+      "Lisandro Mart\u00ednez",
+      "Jefferson Lerma"
+    ],
+    "color": "#1f77b4"
+  },
+  "1": {
+    "name": "The Balanced Players",
+    "description": "Balanced players who provide utility across multiple areas without specializing in any particular aspect. These players are slightly below average in most metrics but can fill various roles as needed in a squad.",
+    "top_features": [
+      "minutes_playtime",
+      "minpct",
+      "90s_pass_types",
+      "90s_playtime",
+      "90s_shooting"
+    ],
+    "representative_players": [
+      "Lloyd Kelly",
+      "Axel Disasi",
+      "Billy Gilmour"
+    ],
+    "color": "#ff7f0e"
+  },
+  "2": {
+    "name": "The Attackers",
+    "description": "Offensive specialists who excel in chance creation, finishing, and ball progression. These players are exceptional at creating and converting goal-scoring opportunities but contribute significantly less on defense.",
+    "top_features": [
+      "sot",
+      "xg_shooting",
+      "xg",
+      "npxg_shooting",
+      "npxg"
+    ],
+    "representative_players": [
+      "Cody Gakpo",
+      "Gabriel Martinelli",
+      "Brennan Johnson"
+    ],
+    "color": "#2ca02c"
+  }
+}
