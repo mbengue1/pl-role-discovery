@@ -65,7 +65,7 @@ def create_radar_chart(
     
     logger.info(f"Valid categories for radar chart: {valid_categories}")
     
-    # Create dummy data if no valid categories
+    # Create dummy data if no valid categories TODO: to fix
     if not valid_categories:
         logger.warning("No valid categories for radar chart, using dummy data")
         valid_categories = ["Goals", "Assists", "Tackles", "Interceptions", "Passes"]

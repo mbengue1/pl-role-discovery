@@ -1,7 +1,7 @@
 """
 application-wide settings and constants.
 
-this module provides centralized configuration for the premier league
+module provides centralized configuration for the premier league
 player role discovery app.
 """
 
@@ -45,7 +45,7 @@ DEFAULT_ROLE_DESCRIPTIONS = {
     2: "Attack-minded players with high goal contribution metrics"
 }
 
-# radar chart categories - these should match column names in the player data
+# radar chart categories  match column names in the player data
 # Checking for these specific stats that are likely to be in the dataset
 RADAR_CATEGORIES = [
     "goals",

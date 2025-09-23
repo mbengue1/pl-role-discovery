@@ -201,7 +201,7 @@ def get_player_shap_data(player_name: str, top_n: int = 5):
     except (KeyError, IndexError, TypeError) as e:
         logger.warning(f"Error extracting SHAP values for player {player_name}: {e}")
     
-    # Return dummy data if anything fails
+    # Return dummy data if anything fails(fall back TODO:)
     return ["Goals", "Assists", "Tackles", "Passes", "Interceptions"], [0.8, 0.6, 0.4, -0.3, -0.5]
 
 @handle_exceptions(error_message="Error loading player explorer page", show_streamlit_error=True)
@@ -234,7 +234,7 @@ def main():
             - **Medium confidence (0.4-0.7)**: Player fits the role well but has some hybrid characteristics
             - **Low confidence (<0.4)**: Player has characteristics spanning multiple roles
             
-            A low confidence score doesn't mean a player is "bad" - it often indicates versatility!
+            A low confidence score doesn't mean a player is "bad" - it often indicates versatility of the player in multiple roles!
             """)
         
         # create tabs for different views

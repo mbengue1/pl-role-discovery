@@ -1,7 +1,7 @@
 """
 cluster explorer page for the premier league player role discovery app.
 
-this page allows users to explore the player clusters through interactive
+allows users to explore the player clusters through interactive
 visualizations, view cluster profiles, and compare different roles.
 """
 

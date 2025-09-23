@@ -6,21 +6,23 @@
 
 **Primary Users:** Football analysts, coaches/scouts, data-curious fans, recruiters/hiring managers (evaluation artifact)
 
-**Status:** Planning complete → build plan defined → deployment targets specified
+**Status:** ✅ **PROJECT COMPLETE** - All modules implemented and deployed to Streamlit Cloud
 
 ---
 
 ## 0) Executive Summary
 
-This project discovers **data-driven player roles** in the English Premier League using **unsupervised learning** on rich, per-90-normalized on-ball and off-ball statistics. The final deliverable is a **deployed, interactive Streamlit application** that lets users:
+This project discovers data-driven player roles in the English Premier League using unsupervised learning on rich, per-90-normalized statistics. The final deliverable is a deployed, interactive Streamlit application that lets users:
 
-* Search a player and see their **inferred role** (+ confidence),
-* Explore **nearest-neighbor** similar players,
-* Compare a player to their role archetype via  **radar charts** ,
-* Visualize the league-wide player landscape with  **PCA/UMAP scatter** ,
-* Understand **why** a player is assigned to a role via  **SHAP/permutation importance** .
+* Search a player and see their inferred role with confidence
+* Explore nearest-neighbor similar players
+* Compare a player to their role archetype via radar charts
+* Visualize the league-wide player landscape with PCA/UMAP scatter plots
+* Understand why a player is assigned to a role via SHAP/permutation importance
 
-This documentation formalizes the  **objectives, scope, data strategy, modeling decisions, explainability framework, system architecture, UX flows, evaluation criteria, non-functional requirements, testing/observability, risks, and roadmap** .
+**Project Status**: Complete and deployed at [pl-role-discovery.streamlit.app](https://pl-role-discovery.streamlit.app)
+
+This documentation formalizes the objectives, scope, data strategy, modeling decisions, explainability framework, system architecture, UX flows, evaluation criteria, non-functional requirements, testing/observability, risks, and roadmap.
 
 ---
 
@@ -450,47 +452,47 @@ Panels:
 
 ## 19) Build Plan (Actionable Checklists)
 
-### Module 1 — Data Collection & Cleaning
+### Module 1 — Data Collection & Cleaning ✅
 
-* [X] Export season tables (standard, shooting, passing, defending, possession, carrying/take-ons).
-* [X] Harmonize column names; join on player & season; aggregate multi-team rows.
-* [X] Filter out GKs; enforce minutes ≥ 600.
-* [X] Save `player_stats_cleaned.csv`; write loader with schema asserts.
+* [x] Export season tables (standard, shooting, passing, defending, possession, carrying/take-ons)
+* [x] Harmonize column names; join on player & season; aggregate multi-team rows
+* [x] Filter out GKs; enforce minutes ≥ 600
+* [x] Save `player_stats_cleaned.csv`; write loader with schema asserts
 
 ### Module 2 — Feature Engineering ✅
 
-* [X] Compute per-90s; composites (PI, CCI, DA, FE)
-* [X] Winsorize heavy tails; StandardScaler fit/save
-* [X] Build `player_stats_engineered.csv` (563 players × 266 features)
+* [x] Compute per-90s; composites (PI, CCI, DA, FE)
+* [x] Winsorize heavy tails; StandardScaler fit/save
+* [x] Build `player_stats_engineered.csv` (563 players × 266 features)
 
 ### Module 3 — Modeling ✅
 
-* [X] Fit PCA to target variance (90%); save artifacts
-* [X] Grid search K for K-Means and GMM; evaluate metrics
-* [X] Choose K=3 by metrics + interpretability; name clusters
-* [X] Bootstrap stability assessment (ARI = 0.9143)
-* [X] Generate UMAP visualization
-* [X] Save all artifacts: `pca.pkl`, `kmeans.pkl`, labeled dataframes
+* [x] Fit PCA to target variance (90%); save artifacts
+* [x] Grid search K for K-Means and GMM; evaluate metrics
+* [x] Choose K=3 by metrics + interpretability; name clusters
+* [x] Bootstrap stability assessment (ARI = 0.9143)
+* [x] Generate UMAP visualization
+* [x] Save all artifacts: `pca.pkl`, `kmeans.pkl`, labeled dataframes
 
-### Module 4 — Explainability
+### Module 4 — Explainability ✅
 
-* [ ] Train RF surrogate on (scaled ± PCA) to predict clusters; save `role_classifier.pkl`.
-* [ ] Generate global SHAP summary; implement per-player SHAP top-k retrieval.
-* [ ] Compute permutation importances; export CSV.
+* [x] Train RF surrogate on (scaled ± PCA) to predict clusters; save `role_classifier.pkl`
+* [x] Generate global SHAP summary; implement per-player SHAP top-k retrieval
+* [x] Compute permutation importances; export CSV
 
-### Module 5 — Streamlit App
+### Module 5 — Streamlit App ✅
 
-* [ ] Home + legend + pipeline schematic.
-* [ ] Player Explorer: search, role, neighbors, radar, SHAP.
-* [ ] Cluster Explorer: UMAP/PCA scatter; cluster profiles; role compare.
-* [ ] Methodology & FAQ page.
-* [ ] Centralize colors/legend; cache data/artifacts.
+* [x] Home + legend + pipeline schematic
+* [x] Player Explorer: search, role, neighbors, radar, SHAP
+* [x] Cluster Explorer: UMAP/PCA scatter; cluster profiles; role compare
+* [x] Methodology & FAQ page
+* [x] Centralize colors/legend; cache data/artifacts
 
-### Module 6 — Deployment & Polish
+### Module 6 — Deployment & Polish ✅
 
-* [ ] Pin requirements; validate cold start; push to Streamlit Cloud.
-* [ ] Add screenshots/gifs; final README; LICENSE; tests passing.
-* [ ] Optional: lightweight usage analytics toggle.
+* [x] Pin requirements; validate cold start; push to Streamlit Cloud
+* [x] Streamlined dependencies for faster deployment
+* [x] App deployed at: pl-role-discovery.streamlit.app
 
 ---
 

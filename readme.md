@@ -4,263 +4,154 @@
 
 ## Overview
 
-This project applies **unsupervised machine learning** to **Premier League player statistics** to discover **data-driven player roles**.
-Instead of relying on traditional position labels (DEF, MID, FWD), the model clusters players into **functional roles**—such as "The Enforcers," "The Creators," and "The Finishers"—based on advanced match statistics.
+This project uses unsupervised machine learning to discover data-driven player roles from Premier League statistics. Instead of relying on traditional position labels (DEF, MID, FWD), the model clusters players into functional roles based on advanced match statistics.
 
-## Current Status
-
-✅ **Phase 1**: Multi-agent research completed
-✅ **Phase 2**: Data cleaning and feature engineering completed
-✅ **Phase 3**: PCA & clustering completed
-🚧 **Phase 4**: Explainability and Streamlit app (in progress)
-
-The final output is an **interactive Streamlit web app** that allows users to:
+The project delivers an interactive Streamlit web app that allows users to:
 
 * Search for any Premier League player
-* View their **clustered role** and similar players
-* Explore role-specific statistics via **radar charts and heatmaps**
-* Visualize the player landscape in **2D PCA/UMAP scatter plots**
-* Understand which features drive role assignment using **explainability tools (SHAP/Permutation Importance)**
+* View their clustered role and similar players
+* Explore role-specific statistics via radar charts and heatmaps
+* Visualize the player landscape in 2D PCA/UMAP scatter plots
+* Understand which features drive role assignment using explainability tools
 
----
+## Quick Start
 
-## ⚙️ Features
-
-* 📈 **Feature Engineering**: Per-90 normalization + composite indices (e.g., progression, chance creation, defensive activity)
-* 🧩 **Clustering**: PCA + K-Means/Gaussian Mixture Models to group players into roles
-* 🔍 **Explainability**: SHAP/permutation importance to highlight drivers behind role assignment
-* 🎨 **Visualization**: Interactive radar charts, scatter plots, role heatmaps (Plotly + Streamlit)
-* 🔗 **Player Similarity Search**: Find nearest neighbors in feature space (cosine similarity)
-* 🌐 **Deployment**: Deployed to Streamlit Cloud for easy access
-
----
-
-## 📂 Project Structure
-
-```
-premier-league-role-discovery/
-  ├── app/                     # Streamlit app
-  │   ├── Home.py
-  │   ├── pages/
-  │   │   ├── 1_Player Explorer.py
-  │   │   ├── 2_Cluster Explorer.py
-  │   │   └── 3_Methodology & FAQ.py
-  ├── data/
-  │   ├── raw/                 # FBref exports
-  │   └── processed/       
-  │       ├── player_stats_engineered.csv  ✅
-  │       ├── player_pca_projection.csv    ✅
-  │       ├── player_clusters.csv          ✅
-  │       └── player_umap_2d.csv          ✅
-  ├── models/
-  │   ├── kmeans.pkl
-  │   ├── pca.pkl
-  │   └── role_classifier.pkl
-  ├── notebooks/
-  │   ├── 01_data_cleaning.ipynb
-  │   ├── 02_feature_engineering.ipynb    ✅
-  │   ├── 03_pca_clustering.ipynb         ✅
-  │   └── 04_explainability.ipynb         🚧
-  ├── planning/                # Research and planning documents
-  │   ├── documentation.md
-  │   ├── multi-agent-plan.md
-  │   └── research-results/
-  │       └── plan.json
-  ├── outputs/                 # Multi-agent research outputs
-  │   ├── raw/                 # Individual research task results
-  │   ├── synthesis/           # Synthesized design decisions
-  │   └── citations/           # Citation verification
-  ├── scripts/                 # Research automation
-  │   ├── run_subagents.py
-  │   ├── synthesize.py
-  │   └── cite_verify.py
-  ├── src/
-  │   ├── data.py
-  │   ├── features.py
-  │   ├── clustering.py
-  │   ├── explainability.py
-  │   └── viz.py
-  ├── utils/                   # Utility functions
-  │   ├── openai_client.py
-  │   └── io_helpers.py
-  ├── requirements.txt
-  ├── README.md
-  └── LICENSE
-```
-
----
-
-## Methodology
-
-### Research Phase
-
-1. **Multi-Agent Research**
-
-   * Parallel execution of research tasks using OpenAI API
-   * Synthesis of findings into design decisions
-   * Citation verification and validation
-2. **Design Decisions**
-
-   * Feature definitions and formulas documented
-   * Clustering approach and evaluation metrics established
-   * Explainability framework defined
-   * UX patterns and visualization guidelines set
-
-### Implementation Phase
-
-1. **Data Collection** ✅
-
-   * Source: FBref exports (2023/24 and 2024/25 seasons)
-   * Focus: Outfield players, ≥600 minutes played
-   * Final dataset: 563 players × 266 features
-2. **Feature Engineering** ✅
-
-   * Per-90 scaling for rate stats
-   * Composite indices (PI, CCI, DA, FE)
-   * Winsorization at 5th and 95th percentiles
-   * Output: `player_stats_engineered.csv`
-3. **Dimensionality Reduction** ✅
-
-   * PCA → retained 90% variance (3 components)
-   * UMAP → 2D visualization layer
-   * Output: `player_pca_projection.csv`
-4. **Clustering** ✅
-
-   * K-Means selected (silhouette: 0.2455, stability ARI: 0.9143)
-   * 3 distinct player roles identified
-   * Bootstrap stability assessment completed
-   * Output: `player_clusters.csv`
-5. **Explainability** 🚧
-
-   * RandomForest surrogate model (planned)
-   * SHAP values for global and local explanations (planned)
-   * Permutation importance for validation (planned)
-
----
-
-## 🎨 App Walkthrough
-
-* **Home Page**: Project overview, role legend
-* **Player Explorer**:
-
-  * Search player by name
-  * See cluster role + nearest neighbors
-  * Radar chart: Player vs cluster average
-  * Bar chart: Feature contributions for this player
-* **Cluster Explorer**:
-
-  * PCA/UMAP scatter with players color-coded by cluster
-  * Cluster profile heatmaps (role averages across features)
-  * Representative players listed per role
-* **Methodology**: Data sources, pipeline steps, model evaluation
-
----
-
-## 🛠️ Tech Stack
-
-* **Research**: `openai`, `concurrent.futures`, `tenacity`
-* **Data Processing**: `pandas`, `numpy`, `scikit-learn`
-* **Machine Learning**: `scikit-learn`, `shap`, `umap-learn`
-* **Visualization**: `plotly`, `seaborn`, `mplsoccer` (optional)
-* **Web App**: `streamlit`
-* **Deployment**: Streamlit Community Cloud
-* **Versioning**: GitHub
-
----
-
-## Deployment
-
-### Research Pipeline
-
-Run the multi-agent research pipeline:
+### Setup
 
 ```bash
-# 1. Execute research tasks in parallel
-python scripts/run_subagents.py --plan planning/research-results/plan.json --model gpt-4o
+# Clone the repository
+git clone https://github.com/mbengue1/pl-role-discovery.git
+cd pl-role-discovery
 
-# 2. Synthesize research findings
-python scripts/synthesize.py --model gpt-4o
-
-# 3. Verify citations (optional)
-python scripts/cite_verify.py --model gpt-4o
-```
-
-### Streamlit App
-
-Run the app locally:
-
-```bash
-streamlit run app/Home.py
-```
-
-## Phase 3 Results
-
-### Clustering Performance
-
-- **Algorithm**: K-Means with k=3
-- **Silhouette Score**: 0.2455 (above threshold of 0.20)
-- **Stability (ARI)**: 0.9143 (excellent consistency)
-- **Davies-Bouldin**: 1.5658 (slightly above threshold)
-
-### Discovered Player Roles
-
-1. **Cluster 0**: "The Enforcers" (Defensive Specialists)
-2. **Cluster 1**: "The Creators" (Attacking Playmakers)
-3. **Cluster 2**: "The Finishers" (Goal Threats)
-
-### Key Findings
-
-- High clustering stability indicates robust role definitions
-- Three distinct player archetypes align with football intuition
-- PCA successfully reduced 236 features to 3 meaningful components
-
-## 🛠️ Setup & Installation
-
-### Prerequisites
-
-- Python 3.11+
-- Conda environment (recommended)
-
-### Installation
-
-```bash
-# Clone repository
-git clone github.com/mmbengue1/pl-role-discovery
-cd premier-league-role-discovery
-
-# Create conda environment
+# Create and activate conda environment
 conda create -n prem-discovery python=3.11
 conda activate prem-discovery
 
 # Install dependencies
-conda install -c conda-forge umap-learn plotly seaborn scikit-learn pandas numpy matplotlib
-
-# Or use the provided environment file
-conda env create -f environment.yml
+pip install -r requirements.txt
 ```
 
-### Quick Start
+### Run the App
 
 ```bash
-# Run the complete pipeline
-jupyter notebook notebooks/03_pca_clustering.ipynb
-
-# View results
-ls data/processed/
+# Launch the Streamlit app
+streamlit run app/Home.py
 ```
 
-## 📈 Next Steps
+Visit `http://localhost:8501` in your browser to explore the app.
 
-- **Phase 4**: Implement explainability (SHAP, permutation importance)
-- **Phase 5**: Build Streamlit application
-- **Phase 6**: Deploy to Streamlit Cloud
+### Deployed Version
 
-## 📈 Future Improvements
+The app is also deployed on Streamlit Cloud: [pl-role-discovery.streamlit.app](https://pl-role-discovery.streamlit.app)
 
-* Add **season-over-season role drift** (track player role evolution)
-* Integrate **team context features** (e.g., possession %, PPDA)
-* Experiment with **deep learning embeddings** (autoencoders for representation learning)
+## Project Structure
 
----
+```
+pl-role-discovery/
+├── app/                       # Streamlit application
+│   ├── Home.py               # Main app entry point
+│   ├── assets/               # Static assets
+│   ├── components/           # UI components
+│   ├── config/               # Configuration
+│   ├── pages/                # App pages
+│   │   ├── 1_Player Explorer.py
+│   │   ├── 2_Cluster Explorer.py
+│   │   └── 3_Methodology & FAQ.py
+│   └── utils/                # Utility functions
+├── data/                     # Data files
+│   ├── processed/            # Processed datasets
+│   └── raw/                  # Raw data (not tracked)
+├── notebooks/                # Jupyter notebooks
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   └── 03_pca_clustering.ipynb
+├── planning/                 # Project documentation
+├── requirements.txt          # Python dependencies
+└── README.md                # This file
+```
 
-⚽ **Author**: Mouhamed Mbengue
+## Methodology
+
+### Data Processing Pipeline
+
+1. **Data Collection**
+   - FBref exports for Premier League 2024/25 season
+   - Filtering to players with ≥600 minutes played
+
+2. **Feature Engineering**
+   - Per-90 normalization
+   - Composite indices creation (PI, CCI, DA, FE)
+   - Winsorization and standardization
+
+3. **Dimensionality Reduction**
+   - PCA to capture 90% variance (3 components)
+   - UMAP for 2D visualization
+
+4. **Clustering**
+   - K-Means algorithm with k=3
+   - Cluster stability assessment via bootstrap
+   - Role naming based on distinctive features
+
+### Discovered Player Roles
+
+1. **The Enforcers (Cluster 0)**: Defensive specialists with high tackles, interceptions, and blocks
+2. **The Balanced Players (Cluster 1)**: Versatile players with balanced attacking and defensive contributions
+3. **The Attackers (Cluster 2)**: Goal threats with high shots on target and clinical finishing
+
+### Model Performance
+
+- **Silhouette Score**: 0.2455 (threshold: ≥0.20)
+- **Stability (ARI)**: 0.9143 (threshold: ≥0.70)
+- **Davies-Bouldin**: 1.5658 (threshold: ≤1.40)
+- **PCA Components**: 3 (90% variance retained)
+
+## App Features
+
+### Home Page
+- Project overview and role legend
+- Cluster distribution statistics
+- Model performance metrics
+
+### Player Explorer
+- Player search with autocomplete
+- Role assignment with confidence
+- Radar charts comparing player to cluster average
+- Similar players by statistical profile
+- SHAP explanations for role assignment
+
+### Cluster Explorer
+- Interactive UMAP/PCA scatter plots
+- Cluster profile heatmaps
+- Representative players per role
+- Role comparison side-by-side
+- Feature importance visualization
+
+### Methodology & FAQ
+- Data sources and processing details
+- Methodology explanation
+- Model evaluation metrics
+- Frequently asked questions
+
+## Tech Stack
+
+- **Data Processing**: pandas, numpy, scikit-learn
+- **Machine Learning**: scikit-learn, shap, umap-learn
+- **Visualization**: plotly, seaborn, matplotlib
+- **Web App**: streamlit
+- **Deployment**: Streamlit Community Cloud
+
+## Future Improvements
+
+- Multi-season analysis: Track player role evolution over time
+- Team context features: Incorporate team playing style metrics
+- Deep learning embeddings: Experiment with autoencoders for representation learning
+- Temporal models: Analyze in-season role shifts
+- Export functionality: Generate PDF reports for players/teams
+
+## Data Source
+
+This project uses publicly available data from [FBref](https://fbref.com/). All data is used for educational and research purposes only.
+
+## Author
+
+**Mouhamed Mbengue**
