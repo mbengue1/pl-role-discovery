@@ -1,39 +1,45 @@
-# Environment variables
-.env
-*/.env
-../.env
-/.env
-
-
-# OS specific files
-.DS_Store
-*/.DS_Store
-
-# Python
+# python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
 
-# Jupyter Notebook
+# distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# virtual environments
+venv/
+env/
+ENV/
+
+# jupyter notebook
 .ipynb_checkpoints
 
-# Virtual Environment
-venv/
-ENV/
+# streamlit
+.streamlit/
+
+# environment variables
+.env
+.env.*
+
+# logs
+logs/
+*.log
+
+# data files (optional - uncomment if you don't want to track data)
+# data/raw/
+
+# ide specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# os specific files
+.DS_Store
+Thumbs.db
+
+# credentials
+*.pem
+*.key

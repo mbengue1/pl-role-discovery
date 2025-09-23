@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="150"
+    xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="150" fill="#37003c" />
+
+    <!-- Title -->
+    <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">
+    Premier League Player Role Discovery
+    </text>
+
+    <!-- Subtitle -->
+    <text x="400" y="100" font-family="Arial, sans-serif" font-size="22" fill="#00ff85" text-anchor="middle">
+    Unsupervised Machine Learning + Interactive Analytics
+    </text>
+
+    <!-- Soccer ball icon -->
+    <circle cx="100" cy="75" r="40" fill="white" />
+    <circle cx="100" cy="75" r="38" fill="#37003c" />
+    <polygon points="100,45 115,65 100,85 85,65" fill="white" />
+    <polygon points="70,75 90,60 130,60 110,75" fill="white" />
+    <polygon points="70,75 90,90 130,90 110,75" fill="white" />
+
+    <!-- Chart icon -->
+    <circle cx="700" cy="75" r="40" fill="white" />
+    <circle cx="700" cy="75" r="38" fill="#37003c" />
+    <rect x="680" y="60" width="10" height="30" fill="#00ff85" />
+    <rect x="695" y="45" width="10" height="45" fill="#00ff85" />
+    <rect x="710" y="70" width="10" height="20" fill="#00ff85" />
+</svg>
